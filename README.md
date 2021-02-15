@@ -1,4 +1,4 @@
-![Alt Text](https://github.com/eXTrimeXT/Criptographer/blob/main/ico_cipher.jpeg)
+![Alt Text](https://github.com/eXTrimeXT/Cryptographer/blob/main/for_criptographer.jpg)
 
 # Criptographer
 Android App, written in KOTLIN.<br>
