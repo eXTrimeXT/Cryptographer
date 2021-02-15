@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        package="com.extrime.my_criptographer">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:screenOrientation="portrait"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme"
+            android:fullBackupContent="@xml/backup_descriptor">
+        <activity android:name=".MainActivity"
+                  android:label="@string/app_name"
+                  android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".AboutProgram" android:label="AboutProgram"/>
+        <activity android:name=".ui.Ciphers.AES" android:label="AES"/>
+        <activity android:name=".ui.Ciphers.BlowFish" android:label="BlowFish"/>
+        <activity android:name=".ui.Algorithms.Caesar" android:label="Caesar"/>
+        <activity android:name=".ui.Ciphers.DES" android:label="DES"/>
+        <activity android:name=".ui.Algorithms.eXT" android:label="eXT"/>
+        <activity android:name=".Information" android:label="Information"/>
+        <activity android:name=".ui.Algorithms.SwitchChar" android:label="SwitchChar"/>
+<!--        <activity android:name=".ui.Settings.ActivityMain" android:label="ACTIVITY"/>-->
+
+    </application>
+</manifest>

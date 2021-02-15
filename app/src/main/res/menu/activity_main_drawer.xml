@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_algorithms"
+                android:icon="@drawable/ic_baseline_text_format_24"
+                android:title="@string/menu_Algorithms"/>
+        <item
+                android:id="@+id/nav_ciphers"
+                android:icon="@drawable/ic_baseline_vpn_key_24"
+                android:title="@string/menu_Ciphers"/>
+        <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_baseline_settings_24"
+                android:title="@string/menu_Settings"/>
+        <item
+            android:id="@+id/nav_about_program"
+            android:icon="@drawable/ic_baseline_developer_mode_24"
+            android:title="@string/menu_About"
+        />
+    </group>
+</menu>
