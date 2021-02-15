@@ -14,4 +14,4 @@ Algorithm eXT* - This is my own algorithm!<br>
 # About App:
 ## APK
 In order not to clog the github, I did not upload the "build" folder (since there were many files in it, * does not affect the work of the project in any way *), but decided to leave the apk file in the root folder of the project.
-[APK](https://github.com/eXTrimeXT/Criptographer/blob/main/Criptographer.apk)
+[APK](https://github.com/eXTrimeXT/Cryptographer/tree/main/app/build/outputs/apk/debug/MyCryptographer.apk)
