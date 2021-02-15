@@ -1,7 +1,7 @@
 ![Alt Text](https://github.com/eXTrimeXT/Criptographer/blob/main/ico_cipher.jpeg)
 
 # Criptographer
-Android App, written in JAVA.<br>
+Android App, written in KOTLIN.<br>
 Minimum version Android - 4.2(API level 17)<br>
 # Ciphers:
 AES<br>
