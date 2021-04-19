@@ -13,3 +13,4 @@ class AlgorithmsFragment : Fragment() {
         return inflater.inflate(R.layout.algorithms_activity, container, false)
     }
 }
+

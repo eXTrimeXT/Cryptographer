@@ -1,304 +1,307 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:2:1-37:12
-INJECTED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:2:1-37:12
-INJECTED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:2:1-37:12
-INJECTED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:2:1-37:12
-MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.3] /home/extrime/.gradle/caches/transforms-2/files-2.1/476b6434ce95254fa4c53ac8a6e5b601/navigation-fragment-ktx-2.3.3/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.fragment:fragment-ktx:1.2.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/6471cf2ea51043c2c00bb025464febc9/jetified-fragment-ktx-1.2.4/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-ui-ktx:2.3.3] /home/extrime/.gradle/caches/transforms-2/files-2.1/f449ad42e3642549ea075e96f1638731/navigation-ui-ktx-2.3.3/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.3] /home/extrime/.gradle/caches/transforms-2/files-2.1/4030e7f70e1b275940d030dd3cbfb41f/navigation-runtime-ktx-2.3.3/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-common-ktx:2.3.3] /home/extrime/.gradle/caches/transforms-2/files-2.1/2112eb6716ae0fa8a512371aeb8d65dd/navigation-common-ktx-2.3.3/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity-ktx:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/1034fc76b93368fb28d7f5ef9c459389/jetified-activity-ktx-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core-ktx:1.3.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/5912170fb44ffb5fa164f3d44ad55db9/jetified-core-ktx-1.3.2/AndroidManifest.xml:2:1-9:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/4d4680fd863cb860e913c90766af118c/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/4a45b054bebc2529c88ffa39a21d06b6/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/adeb9cc8803374f23f5aec1adc48e864/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/bccddb4724a734171290c6d6c892297a/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.navigation:navigation-ui:2.3.3] /home/extrime/.gradle/caches/transforms-2/files-2.1/24968dbf67eaa99ad88b75efae2571b7/navigation-ui-2.3.3/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.material:material:1.2.1] /home/extrime/.gradle/caches/transforms-2/files-2.1/ef20407323028741ee98ce93926ba08e/material-1.2.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat:1.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/f6572a5cea4f0a531dd126915c4ee1f3/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.cardview:cardview:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/81baaa8820e76f80ed481259ea4b32a1/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/8f7fb7a653505c8e394206ab16b5b9c4/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.navigation:navigation-fragment:2.3.3] /home/extrime/.gradle/caches/transforms-2/files-2.1/775a581c160f484eed54aa1e3d0a6357/navigation-fragment-2.3.3/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/276c7f015852a116bb451ccb216cffed/lifecycle-extensions-2.2.0/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/e81721983bc57d2b65f2b4186b226a1d/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.media:media:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/c0efd23d1f8c3471989c12dcbe6c777c/media-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/58ede9a5758db9835ab83c0f70e10209/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/65de17296653345effe865bf6993662a/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/26a1491616f005fcb53f4a1e9a06e8cf/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/cb5ed7c529e49af37584c459bed538e5/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/f0072eff69ed7ddf8bf67fa39c1cd760/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/cd52561e5d55cf286d9574a3996cdd5d/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.fragment:fragment:1.2.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/66977870a011737cedbbf0757e04317a/fragment-1.2.4/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/extrime/.gradle/caches/transforms-2/files-2.1/5fda8fd0cfddd86dd3e8cdba3a30c296/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.transition:transition:1.3.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/35e150ce4274438988c957821051bc6b/transition-1.3.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/6b60a84c0717e1613bbfe4cedf7737de/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/b1e5754aff4366c875a890f850a60869/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/a6b5e1ba0c37039f5c1f58c1880ed5df/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.customview:customview:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/8ae45e8891459d96291784d3fbd6c521/customview-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.loader:loader:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/22be535aa19a8d1985cf3108146e0ae1/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/7f44c8e94f1ed17f4ee10b9cfd18027c/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/6a2e721a9ffd3ce7a34753d5f5bb2d19/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.navigation:navigation-runtime:2.3.3] /home/extrime/.gradle/caches/transforms-2/files-2.1/e67763dcdd9d4aa0084dfe7de464dcb1/navigation-runtime-2.3.3/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/b3b12dff5d83b5a6d2603f945aa8b134/jetified-activity-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-common:2.3.3] /home/extrime/.gradle/caches/transforms-2/files-2.1/02ce90a8f327e990cd85c179d98c500e/navigation-common-2.3.3/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core:1.3.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/c97004ca9c1c84e2b038f939ef90c0c0/core-1.3.2/AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/69862e870332083748a6d0c6a4e4c6df/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/a33d1c1474e50a7e3bf616d292cebd17/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:17:1-32:12
-MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/50e21aa12ac03ace4ad32e71f1e3bd84/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/2a791b4c4263525363a95572827efe88/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/f577028db8b3d89a2a57fcbc243edeb9/lifecycle-livedata-2.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/3b139d1106c448d0719d7dd1a126d0d8/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/2edd3ca56783547c0b49834f16a52021/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/d07143c36d3106d8fe83aff6f4daa935/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/05b9aa0b8d1b12a8a7418beb8cf5c454/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/b599617e82aecc5554b6734ad2fbd8ea/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/dc7ede4836fc376fb978f4fae4dcb3e1/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/82d6a438da58d5350186030c725c375a/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/06f96d15b135e831ee946e2462aaa9ab/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/113b0b727002fac2f80ee61e07169103/print-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/cb06ef4a168fff8d9c43217efa7593f1/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/f3b74a0831f0bc3835e47f0cb6f36a79/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:2:1-37:12
-INJECTED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:2:1-37:12
-INJECTED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:2:1-37:12
+ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:2:1-54:12
+INJECTED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:2:1-54:12
+INJECTED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:2:1-54:12
+INJECTED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:2:1-54:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/15e1868fde17d48f9197694bbb1d69a6/navigation-fragment-ktx-2.3.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/e9eaada4575a841fd5e694a407098a51/jetified-fragment-ktx-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/61532b754109c5fcf4331b42de4847f2/navigation-ui-ktx-2.3.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/bae42ea6741f600bbcd6f393c25ccc1d/navigation-runtime-ktx-2.3.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/8b137f1be2eb49df47cbbf3cba2c19a8/navigation-common-ktx-2.3.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/4942f52977804b2f27e41b1732925d2e/jetified-activity-ktx-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.3.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/07eef328030ed8b8e1d937a8c2b2de67/jetified-core-ktx-1.3.2/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/a86e28682923d07ebdd42f5e68c66718/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/c1bc2ec97d2c089bc0ea97186d637662/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/4b21825e6a663d4102ab6e239b36a83c/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/bda44b97180c6a9073fb314e78a435e5/navigation-ui-2.3.4/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.3.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/da02d2b34c0555955efdee69a6dfe2dc/material-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/ae13ab8b71ef166a3071a73845a65ff3/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/fea493130a677b391490a4006e7dc24c/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/0b1c72e2737bbe0035aa88424aa476fc/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/352a416adec0305ac85ca8d27f102f36/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/f43c413c110ce193c9657700f622e157/navigation-fragment-2.3.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/cf9f6860b28782ecc05fe110562bbf8b/lifecycle-extensions-2.2.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/126f7f70a1d3776ad2a691dbfd3fd1f3/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/2593b8fa7da5cf30b33a7fe59154f03b/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/5e75d8dfa9a79065c6546b6f31e5cfba/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/17a7f9bfba449f68ec5b5e02e54a0218/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/d15e9efee630041647b68db1b0e536ee/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/e99af80b7e0cef9b7edc9612a056978a/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/28ae217f1c85f8082c418957e10a90c2/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/d379c576f82d13207da8e563b92e2167/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/b8356cef77ed52352ceddf3dc46e5751/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.2.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/8032882bc05dd7cad51071bd001fde8e/fragment-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/extrime/.gradle/caches/transforms-2/files-2.1/977b495bba42b20f9bfa1b5904610f11/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.3.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/da6a180dc13a059aaaa3ef2ad431b675/transition-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/e00620b515251841e26d66247012b002/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/f782b05704d2e9b66e73dc584c8e975d/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/ce8d02798f4935391166e3dc1594ff3d/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/fd45e804c7951bc66b6fe304f99fae7e/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/bb10d4955c936efde89411ae4e412bf8/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/7a66b994261df87299abf1edaafc3cec/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/ac2c2fe881a1a7e14ec257aefec2b55d/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/6130c9b586b3f220eb4eecb83d7c2de7/navigation-runtime-2.3.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/853bea98545304bb525dab3a3e4830be/jetified-activity-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/b28eb0d6ee300dc8bf0c53e9b77c376f/navigation-common-2.3.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.3.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/cf482542e751a71152d7f3206b48629a/core-1.3.2/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/684c4c4e384add0ec8aadf4b10f6dbe3/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/9a43c30ab558a4c41e56ed595a8b627a/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/10134e8f36d0bccc3d28370f7e1c6bc3/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/f06c5ed3f8ac6762e89788892ddc0d05/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/d287fb0ca65618ae5cd8c1e69c7b6b71/lifecycle-livedata-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/e42d86f4019627383df52a4b80930a73/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/b5746266ab2f8436e42d564b1e47197c/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/1053446440c6f7f948aecb9598443e75/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/489414830981e70245d144d24d567d18/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/2c6a2bfab3fc0a25d6a51997791c7634/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/8a24d117fc62cea03517636e5eafb050/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/e2985f425a44554401b109884ca817b0/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/c8f0fd188c3a288c2401a16f6084d194/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/8c8095466793568297991035db1dba25/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/5cb4d62bc9d3209ed2bd39f0672eac2a/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/44ae7ca987758d76a436823f752abd56/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:2:1-54:12
+INJECTED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:2:1-54:12
+INJECTED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:2:1-54:12
 	package
-		ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:4:9-47
+		ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:3:11-49
 		INJECTED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml
 		INJECTED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml
-		ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:2:1-37:12
+		ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:2:1-54:12
 		INJECTED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml
-		ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:2:1-37:12
+		ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:2:1-54:12
 		INJECTED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:3:9-67
+		ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
 ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:5:5-66
 	android:name
 		ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:5:22-64
-uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:6:5-80
-	android:name
-		ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:6:22-78
 application
-ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:8:5-36:19
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/bccddb4724a734171290c6d6c892297a/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/bccddb4724a734171290c6d6c892297a/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
-MERGED from [com.google.android.material:material:1.2.1] /home/extrime/.gradle/caches/transforms-2/files-2.1/ef20407323028741ee98ce93926ba08e/material-1.2.1/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.2.1] /home/extrime/.gradle/caches/transforms-2/files-2.1/ef20407323028741ee98ce93926ba08e/material-1.2.1/AndroidManifest.xml:22:5-20
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/276c7f015852a116bb451ccb216cffed/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/276c7f015852a116bb451ccb216cffed/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.core:core:1.3.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/c97004ca9c1c84e2b038f939ef90c0c0/core-1.3.2/AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.3.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/c97004ca9c1c84e2b038f939ef90c0c0/core-1.3.2/AndroidManifest.xml:24:5-89
-MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/a33d1c1474e50a7e3bf616d292cebd17/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/a33d1c1474e50a7e3bf616d292cebd17/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/dc7ede4836fc376fb978f4fae4dcb3e1/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/dc7ede4836fc376fb978f4fae4dcb3e1/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:7:5-52:19
+MERGED from [com.google.android.material:material:1.3.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/da02d2b34c0555955efdee69a6dfe2dc/material-1.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.3.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/da02d2b34c0555955efdee69a6dfe2dc/material-1.3.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/ae13ab8b71ef166a3071a73845a65ff3/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/ae13ab8b71ef166a3071a73845a65ff3/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/cf9f6860b28782ecc05fe110562bbf8b/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/cf9f6860b28782ecc05fe110562bbf8b/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.core:core:1.3.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/cf482542e751a71152d7f3206b48629a/core-1.3.2/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/cf482542e751a71152d7f3206b48629a/core-1.3.2/AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/9a43c30ab558a4c41e56ed595a8b627a/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/9a43c30ab558a4c41e56ed595a8b627a/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/8a24d117fc62cea03517636e5eafb050/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/8a24d117fc62cea03517636e5eafb050/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
 	android:screenOrientation
 		ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:13:13-49
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.3.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/c97004ca9c1c84e2b038f939ef90c0c0/core-1.3.2/AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.3.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/cf482542e751a71152d7f3206b48629a/core-1.3.2/AndroidManifest.xml:24:18-86
 	android:supportsRtl
 		ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:14:13-39
 	android:label
 		ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:11:13-45
 	android:fullBackupContent
-		ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:16:13-63
+		ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:9:13-63
 	android:roundIcon
 		ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:12:13-58
 	android:icon
 		ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:10:13-47
 	android:allowBackup
-		ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:9:13-39
+		ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:8:13-39
 	android:theme
 		ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:15:13-44
+activity#com.extrime.my_criptographer.ui.Ciphers.ShowKeys
+ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:16:9-17:20
+	android:name
+		ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:16:19-54
 activity#com.extrime.my_criptographer.MainActivity
-ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:17:9-24:20
+ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:18:9-27:20
 	android:label
-		ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:18:19-51
+		ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:20:17-49
 	android:theme
-		ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:19:19-62
+		ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:21:17-60
 	android:name
-		ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:17:19-47
+		ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:19:17-45
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:20:13-23:29
+ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:22:13-26:29
 action#android.intent.action.MAIN
-ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:21:17-68
+ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:23:17-68
 	android:name
-		ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:21:25-66
+		ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:23:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:22:17-76
+ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:25:17-76
 	android:name
-		ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:22:27-74
-activity#com.extrime.my_criptographer.AboutProgram
-ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:26:9-78
-	android:label
-		ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:26:48-76
-	android:name
-		ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:26:19-47
+		ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:25:27-74
 activity#com.extrime.my_criptographer.ui.Ciphers.AES
-ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:27:9-71
+ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:28:9-30:38
 	android:label
-		ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:27:50-69
+		ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:30:17-36
 	android:name
-		ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:27:19-49
+		ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:29:17-47
 activity#com.extrime.my_criptographer.ui.Ciphers.BlowFish
-ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:28:9-81
+ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:31:9-33:43
 	android:label
-		ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:28:55-79
+		ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:33:17-41
 	android:name
-		ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:28:19-54
+		ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:32:17-52
 activity#com.extrime.my_criptographer.ui.Algorithms.Caesar
-ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:29:9-80
+ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:34:9-36:41
 	android:label
-		ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:29:56-78
+		ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:36:17-39
 	android:name
-		ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:29:19-55
+		ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:35:17-53
 activity#com.extrime.my_criptographer.ui.Ciphers.DES
-ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:30:9-71
+ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:37:9-39:38
 	android:label
-		ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:30:50-69
+		ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:39:17-36
 	android:name
-		ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:30:19-49
+		ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:38:17-47
+activity#com.extrime.my_criptographer.ui.Ciphers.RSA
+ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:40:9-42:38
+	android:label
+		ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:42:17-36
+	android:name
+		ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:41:17-47
 activity#com.extrime.my_criptographer.ui.Algorithms.eXT
-ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:31:9-74
+ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:43:9-45:38
 	android:label
-		ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:31:53-72
+		ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:45:17-36
 	android:name
-		ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:31:19-52
+		ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:44:17-50
 activity#com.extrime.my_criptographer.Information
-ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:32:9-76
+ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:46:9-48:46
 	android:label
-		ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:32:47-74
+		ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:48:17-44
 	android:name
-		ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:32:19-46
+		ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:47:17-44
 activity#com.extrime.my_criptographer.ui.Algorithms.SwitchChar
-ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:33:9-88
+ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:49:9-51:45
 	android:label
-		ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:33:60-86
+		ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:51:17-43
 	android:name
-		ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:33:19-59
+		ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml:50:17-57
 uses-sdk
 INJECTED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml
 INJECTED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml
-MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.3] /home/extrime/.gradle/caches/transforms-2/files-2.1/476b6434ce95254fa4c53ac8a6e5b601/navigation-fragment-ktx-2.3.3/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.3] /home/extrime/.gradle/caches/transforms-2/files-2.1/476b6434ce95254fa4c53ac8a6e5b601/navigation-fragment-ktx-2.3.3/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment-ktx:1.2.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/6471cf2ea51043c2c00bb025464febc9/jetified-fragment-ktx-1.2.4/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment-ktx:1.2.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/6471cf2ea51043c2c00bb025464febc9/jetified-fragment-ktx-1.2.4/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-ui-ktx:2.3.3] /home/extrime/.gradle/caches/transforms-2/files-2.1/f449ad42e3642549ea075e96f1638731/navigation-ui-ktx-2.3.3/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-ui-ktx:2.3.3] /home/extrime/.gradle/caches/transforms-2/files-2.1/f449ad42e3642549ea075e96f1638731/navigation-ui-ktx-2.3.3/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.3] /home/extrime/.gradle/caches/transforms-2/files-2.1/4030e7f70e1b275940d030dd3cbfb41f/navigation-runtime-ktx-2.3.3/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.3] /home/extrime/.gradle/caches/transforms-2/files-2.1/4030e7f70e1b275940d030dd3cbfb41f/navigation-runtime-ktx-2.3.3/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-common-ktx:2.3.3] /home/extrime/.gradle/caches/transforms-2/files-2.1/2112eb6716ae0fa8a512371aeb8d65dd/navigation-common-ktx-2.3.3/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-common-ktx:2.3.3] /home/extrime/.gradle/caches/transforms-2/files-2.1/2112eb6716ae0fa8a512371aeb8d65dd/navigation-common-ktx-2.3.3/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity-ktx:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/1034fc76b93368fb28d7f5ef9c459389/jetified-activity-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity-ktx:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/1034fc76b93368fb28d7f5ef9c459389/jetified-activity-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core-ktx:1.3.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/5912170fb44ffb5fa164f3d44ad55db9/jetified-core-ktx-1.3.2/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.core:core-ktx:1.3.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/5912170fb44ffb5fa164f3d44ad55db9/jetified-core-ktx-1.3.2/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/4d4680fd863cb860e913c90766af118c/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/4d4680fd863cb860e913c90766af118c/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/4a45b054bebc2529c88ffa39a21d06b6/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/4a45b054bebc2529c88ffa39a21d06b6/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/adeb9cc8803374f23f5aec1adc48e864/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/adeb9cc8803374f23f5aec1adc48e864/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/bccddb4724a734171290c6d6c892297a/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/bccddb4724a734171290c6d6c892297a/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.navigation:navigation-ui:2.3.3] /home/extrime/.gradle/caches/transforms-2/files-2.1/24968dbf67eaa99ad88b75efae2571b7/navigation-ui-2.3.3/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-ui:2.3.3] /home/extrime/.gradle/caches/transforms-2/files-2.1/24968dbf67eaa99ad88b75efae2571b7/navigation-ui-2.3.3/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.material:material:1.2.1] /home/extrime/.gradle/caches/transforms-2/files-2.1/ef20407323028741ee98ce93926ba08e/material-1.2.1/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.2.1] /home/extrime/.gradle/caches/transforms-2/files-2.1/ef20407323028741ee98ce93926ba08e/material-1.2.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/f6572a5cea4f0a531dd126915c4ee1f3/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/f6572a5cea4f0a531dd126915c4ee1f3/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cardview:cardview:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/81baaa8820e76f80ed481259ea4b32a1/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/81baaa8820e76f80ed481259ea4b32a1/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/8f7fb7a653505c8e394206ab16b5b9c4/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/8f7fb7a653505c8e394206ab16b5b9c4/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-fragment:2.3.3] /home/extrime/.gradle/caches/transforms-2/files-2.1/775a581c160f484eed54aa1e3d0a6357/navigation-fragment-2.3.3/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-fragment:2.3.3] /home/extrime/.gradle/caches/transforms-2/files-2.1/775a581c160f484eed54aa1e3d0a6357/navigation-fragment-2.3.3/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/276c7f015852a116bb451ccb216cffed/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/276c7f015852a116bb451ccb216cffed/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/e81721983bc57d2b65f2b4186b226a1d/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/e81721983bc57d2b65f2b4186b226a1d/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.media:media:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/c0efd23d1f8c3471989c12dcbe6c777c/media-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.media:media:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/c0efd23d1f8c3471989c12dcbe6c777c/media-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/58ede9a5758db9835ab83c0f70e10209/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/58ede9a5758db9835ab83c0f70e10209/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/65de17296653345effe865bf6993662a/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/65de17296653345effe865bf6993662a/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/26a1491616f005fcb53f4a1e9a06e8cf/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/26a1491616f005fcb53f4a1e9a06e8cf/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/cb5ed7c529e49af37584c459bed538e5/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/cb5ed7c529e49af37584c459bed538e5/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/f0072eff69ed7ddf8bf67fa39c1cd760/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/f0072eff69ed7ddf8bf67fa39c1cd760/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/cd52561e5d55cf286d9574a3996cdd5d/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/cd52561e5d55cf286d9574a3996cdd5d/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.2.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/66977870a011737cedbbf0757e04317a/fragment-1.2.4/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.2.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/66977870a011737cedbbf0757e04317a/fragment-1.2.4/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/extrime/.gradle/caches/transforms-2/files-2.1/5fda8fd0cfddd86dd3e8cdba3a30c296/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/extrime/.gradle/caches/transforms-2/files-2.1/5fda8fd0cfddd86dd3e8cdba3a30c296/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.3.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/35e150ce4274438988c957821051bc6b/transition-1.3.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.3.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/35e150ce4274438988c957821051bc6b/transition-1.3.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager:viewpager:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/6b60a84c0717e1613bbfe4cedf7737de/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/6b60a84c0717e1613bbfe4cedf7737de/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/b1e5754aff4366c875a890f850a60869/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/b1e5754aff4366c875a890f850a60869/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/a6b5e1ba0c37039f5c1f58c1880ed5df/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/a6b5e1ba0c37039f5c1f58c1880ed5df/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/8ae45e8891459d96291784d3fbd6c521/customview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/8ae45e8891459d96291784d3fbd6c521/customview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.loader:loader:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/22be535aa19a8d1985cf3108146e0ae1/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/22be535aa19a8d1985cf3108146e0ae1/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/7f44c8e94f1ed17f4ee10b9cfd18027c/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/7f44c8e94f1ed17f4ee10b9cfd18027c/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/6a2e721a9ffd3ce7a34753d5f5bb2d19/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/6a2e721a9ffd3ce7a34753d5f5bb2d19/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-runtime:2.3.3] /home/extrime/.gradle/caches/transforms-2/files-2.1/e67763dcdd9d4aa0084dfe7de464dcb1/navigation-runtime-2.3.3/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-runtime:2.3.3] /home/extrime/.gradle/caches/transforms-2/files-2.1/e67763dcdd9d4aa0084dfe7de464dcb1/navigation-runtime-2.3.3/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/b3b12dff5d83b5a6d2603f945aa8b134/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/b3b12dff5d83b5a6d2603f945aa8b134/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-common:2.3.3] /home/extrime/.gradle/caches/transforms-2/files-2.1/02ce90a8f327e990cd85c179d98c500e/navigation-common-2.3.3/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-common:2.3.3] /home/extrime/.gradle/caches/transforms-2/files-2.1/02ce90a8f327e990cd85c179d98c500e/navigation-common-2.3.3/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.3.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/c97004ca9c1c84e2b038f939ef90c0c0/core-1.3.2/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.3.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/c97004ca9c1c84e2b038f939ef90c0c0/core-1.3.2/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/69862e870332083748a6d0c6a4e4c6df/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/69862e870332083748a6d0c6a4e4c6df/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/a33d1c1474e50a7e3bf616d292cebd17/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/a33d1c1474e50a7e3bf616d292cebd17/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/50e21aa12ac03ace4ad32e71f1e3bd84/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/50e21aa12ac03ace4ad32e71f1e3bd84/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/2a791b4c4263525363a95572827efe88/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/2a791b4c4263525363a95572827efe88/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/f577028db8b3d89a2a57fcbc243edeb9/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/f577028db8b3d89a2a57fcbc243edeb9/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/3b139d1106c448d0719d7dd1a126d0d8/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/3b139d1106c448d0719d7dd1a126d0d8/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/2edd3ca56783547c0b49834f16a52021/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/2edd3ca56783547c0b49834f16a52021/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/d07143c36d3106d8fe83aff6f4daa935/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/d07143c36d3106d8fe83aff6f4daa935/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/05b9aa0b8d1b12a8a7418beb8cf5c454/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/05b9aa0b8d1b12a8a7418beb8cf5c454/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/b599617e82aecc5554b6734ad2fbd8ea/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/b599617e82aecc5554b6734ad2fbd8ea/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/dc7ede4836fc376fb978f4fae4dcb3e1/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/dc7ede4836fc376fb978f4fae4dcb3e1/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.documentfile:documentfile:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/82d6a438da58d5350186030c725c375a/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/82d6a438da58d5350186030c725c375a/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/06f96d15b135e831ee946e2462aaa9ab/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/06f96d15b135e831ee946e2462aaa9ab/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/113b0b727002fac2f80ee61e07169103/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/113b0b727002fac2f80ee61e07169103/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/cb06ef4a168fff8d9c43217efa7593f1/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/cb06ef4a168fff8d9c43217efa7593f1/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/f3b74a0831f0bc3835e47f0cb6f36a79/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/f3b74a0831f0bc3835e47f0cb6f36a79/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/15e1868fde17d48f9197694bbb1d69a6/navigation-fragment-ktx-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/15e1868fde17d48f9197694bbb1d69a6/navigation-fragment-ktx-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/e9eaada4575a841fd5e694a407098a51/jetified-fragment-ktx-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/e9eaada4575a841fd5e694a407098a51/jetified-fragment-ktx-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/61532b754109c5fcf4331b42de4847f2/navigation-ui-ktx-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/61532b754109c5fcf4331b42de4847f2/navigation-ui-ktx-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/bae42ea6741f600bbcd6f393c25ccc1d/navigation-runtime-ktx-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/bae42ea6741f600bbcd6f393c25ccc1d/navigation-runtime-ktx-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/8b137f1be2eb49df47cbbf3cba2c19a8/navigation-common-ktx-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/8b137f1be2eb49df47cbbf3cba2c19a8/navigation-common-ktx-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/4942f52977804b2f27e41b1732925d2e/jetified-activity-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/4942f52977804b2f27e41b1732925d2e/jetified-activity-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.3.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/07eef328030ed8b8e1d937a8c2b2de67/jetified-core-ktx-1.3.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.3.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/07eef328030ed8b8e1d937a8c2b2de67/jetified-core-ktx-1.3.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/a86e28682923d07ebdd42f5e68c66718/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/a86e28682923d07ebdd42f5e68c66718/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/c1bc2ec97d2c089bc0ea97186d637662/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/c1bc2ec97d2c089bc0ea97186d637662/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/4b21825e6a663d4102ab6e239b36a83c/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/4b21825e6a663d4102ab6e239b36a83c/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/bda44b97180c6a9073fb314e78a435e5/navigation-ui-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/bda44b97180c6a9073fb314e78a435e5/navigation-ui-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.3.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/da02d2b34c0555955efdee69a6dfe2dc/material-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.3.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/da02d2b34c0555955efdee69a6dfe2dc/material-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/ae13ab8b71ef166a3071a73845a65ff3/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/ae13ab8b71ef166a3071a73845a65ff3/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/fea493130a677b391490a4006e7dc24c/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/fea493130a677b391490a4006e7dc24c/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/0b1c72e2737bbe0035aa88424aa476fc/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/0b1c72e2737bbe0035aa88424aa476fc/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/352a416adec0305ac85ca8d27f102f36/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/352a416adec0305ac85ca8d27f102f36/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/f43c413c110ce193c9657700f622e157/navigation-fragment-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/f43c413c110ce193c9657700f622e157/navigation-fragment-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/cf9f6860b28782ecc05fe110562bbf8b/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/cf9f6860b28782ecc05fe110562bbf8b/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/126f7f70a1d3776ad2a691dbfd3fd1f3/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/126f7f70a1d3776ad2a691dbfd3fd1f3/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/2593b8fa7da5cf30b33a7fe59154f03b/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/2593b8fa7da5cf30b33a7fe59154f03b/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/5e75d8dfa9a79065c6546b6f31e5cfba/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/5e75d8dfa9a79065c6546b6f31e5cfba/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/17a7f9bfba449f68ec5b5e02e54a0218/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/17a7f9bfba449f68ec5b5e02e54a0218/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/d15e9efee630041647b68db1b0e536ee/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/d15e9efee630041647b68db1b0e536ee/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/e99af80b7e0cef9b7edc9612a056978a/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/e99af80b7e0cef9b7edc9612a056978a/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/28ae217f1c85f8082c418957e10a90c2/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/28ae217f1c85f8082c418957e10a90c2/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/d379c576f82d13207da8e563b92e2167/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/d379c576f82d13207da8e563b92e2167/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/b8356cef77ed52352ceddf3dc46e5751/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/b8356cef77ed52352ceddf3dc46e5751/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/8032882bc05dd7cad51071bd001fde8e/fragment-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/8032882bc05dd7cad51071bd001fde8e/fragment-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/extrime/.gradle/caches/transforms-2/files-2.1/977b495bba42b20f9bfa1b5904610f11/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/extrime/.gradle/caches/transforms-2/files-2.1/977b495bba42b20f9bfa1b5904610f11/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/da6a180dc13a059aaaa3ef2ad431b675/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/da6a180dc13a059aaaa3ef2ad431b675/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/e00620b515251841e26d66247012b002/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/e00620b515251841e26d66247012b002/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/f782b05704d2e9b66e73dc584c8e975d/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/f782b05704d2e9b66e73dc584c8e975d/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/ce8d02798f4935391166e3dc1594ff3d/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/ce8d02798f4935391166e3dc1594ff3d/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/fd45e804c7951bc66b6fe304f99fae7e/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/fd45e804c7951bc66b6fe304f99fae7e/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/bb10d4955c936efde89411ae4e412bf8/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/bb10d4955c936efde89411ae4e412bf8/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/7a66b994261df87299abf1edaafc3cec/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/7a66b994261df87299abf1edaafc3cec/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/ac2c2fe881a1a7e14ec257aefec2b55d/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/ac2c2fe881a1a7e14ec257aefec2b55d/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/6130c9b586b3f220eb4eecb83d7c2de7/navigation-runtime-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/6130c9b586b3f220eb4eecb83d7c2de7/navigation-runtime-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/853bea98545304bb525dab3a3e4830be/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/853bea98545304bb525dab3a3e4830be/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/b28eb0d6ee300dc8bf0c53e9b77c376f/navigation-common-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/b28eb0d6ee300dc8bf0c53e9b77c376f/navigation-common-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/cf482542e751a71152d7f3206b48629a/core-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/cf482542e751a71152d7f3206b48629a/core-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/684c4c4e384add0ec8aadf4b10f6dbe3/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/684c4c4e384add0ec8aadf4b10f6dbe3/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/9a43c30ab558a4c41e56ed595a8b627a/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/9a43c30ab558a4c41e56ed595a8b627a/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/10134e8f36d0bccc3d28370f7e1c6bc3/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/10134e8f36d0bccc3d28370f7e1c6bc3/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/f06c5ed3f8ac6762e89788892ddc0d05/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/f06c5ed3f8ac6762e89788892ddc0d05/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/d287fb0ca65618ae5cd8c1e69c7b6b71/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/d287fb0ca65618ae5cd8c1e69c7b6b71/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/e42d86f4019627383df52a4b80930a73/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/e42d86f4019627383df52a4b80930a73/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/b5746266ab2f8436e42d564b1e47197c/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/b5746266ab2f8436e42d564b1e47197c/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/1053446440c6f7f948aecb9598443e75/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/1053446440c6f7f948aecb9598443e75/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/489414830981e70245d144d24d567d18/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/489414830981e70245d144d24d567d18/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/2c6a2bfab3fc0a25d6a51997791c7634/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/2c6a2bfab3fc0a25d6a51997791c7634/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/8a24d117fc62cea03517636e5eafb050/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/8a24d117fc62cea03517636e5eafb050/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/e2985f425a44554401b109884ca817b0/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/e2985f425a44554401b109884ca817b0/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/c8f0fd188c3a288c2401a16f6084d194/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/c8f0fd188c3a288c2401a16f6084d194/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/8c8095466793568297991035db1dba25/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/8c8095466793568297991035db1dba25/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/5cb4d62bc9d3209ed2bd39f0672eac2a/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/5cb4d62bc9d3209ed2bd39f0672eac2a/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/44ae7ca987758d76a436823f752abd56/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/44ae7ca987758d76a436823f752abd56/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
 INJECTED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml
 INJECTED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
@@ -310,12 +313,12 @@ INJECTED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProject
 		ADDED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml
 		INJECTED from /home/extrime/mnt/NTFS_FILE_SYSTEM/Programming/IntelliJIDEAProjects/My_Criptographer/app/src/main/AndroidManifest.xml
 provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
-ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/a33d1c1474e50a7e3bf616d292cebd17/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/9a43c30ab558a4c41e56ed595a8b627a/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
 	android:authorities
-		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/a33d1c1474e50a7e3bf616d292cebd17/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/9a43c30ab558a4c41e56ed595a8b627a/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
 	android:multiprocess
-		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/a33d1c1474e50a7e3bf616d292cebd17/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/9a43c30ab558a4c41e56ed595a8b627a/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
 	android:exported
-		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/a33d1c1474e50a7e3bf616d292cebd17/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/9a43c30ab558a4c41e56ed595a8b627a/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
 	android:name
-		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/a33d1c1474e50a7e3bf616d292cebd17/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/9a43c30ab558a4c41e56ed595a8b627a/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79

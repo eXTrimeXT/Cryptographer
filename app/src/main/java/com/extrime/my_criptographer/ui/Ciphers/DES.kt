@@ -142,11 +142,11 @@ open class DES : StartActivity() {
         }
     }
 
-    override fun onBackPressed() {
-        super.onBackPressed()
-        val intent = Intent(this, MainActivity::class.java)
-        startActivity(intent)
-        MyToast("Шифры")
-        finish()
-    }
+//    override fun onBackPressed() {
+//        super.onBackPressed()
+//        val intent = Intent(this, MainActivity::class.java)
+//        startActivity(intent)
+//        MyToast("Шифры")
+//        finish()
+//    }
 }

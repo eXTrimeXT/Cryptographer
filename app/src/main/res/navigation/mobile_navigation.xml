@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/mobile_navigation"
+            app:startDestination="@+id/nav_algorithms">
+
+    <fragment
+            android:id="@+id/nav_algorithms"
+            android:name="com.extrime.my_criptographer.ui.Algorithms.AlgorithmsFragment"
+            android:label="@string/menu_Algorithms"
+            tools:layout="@layout/algorithms_activity"/>
+
+    <fragment
+            android:id="@+id/nav_ciphers"
+            android:name="com.extrime.my_criptographer.ui.Ciphers.CiphersFragment"
+            android:label="@string/menu_Ciphers"
+            tools:layout="@layout/ciphers_activity"/>
+
+    <fragment
+            android:id="@+id/nav_settings"
+            android:name="com.extrime.my_criptographer.ui.Settings.SettingsFragment"
+            android:label="@string/menu_Settings"
+            tools:layout="@layout/settings_activity"/>
+
+    <fragment
+            android:id="@+id/nav_about_program"
+            android:name="com.extrime.my_criptographer.AboutProgramFragment"
+            android:label="@string/menu_About"
+            tools:layout="@layout/aboutprogram_activity"/>
+
+</navigation>

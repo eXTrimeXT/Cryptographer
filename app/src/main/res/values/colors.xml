@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--  Light Theme  -->
+    <color name="LightColorPrimary">#0FF</color>
+    <color name="LightColorPrimaryDark">#005500</color>
+    <color name="LightColorAccent">#FF5050</color>
+    <color name="LightColorButtonNormal">#FFF</color>
+    <color name="LightTextColor">#000</color>
+    <color name="LightBackground">#EDA</color>
+
+<!--  Dark Theme  -->
+    <color name="DarkColorPrimary">#00F</color>
+    <color name="DarkColorPrimaryDark">#0F0</color>
+    <color name="DarkColorAccent">#F00</color>
+    <color name="DarkColorButtonNormal">#000</color>
+    <color name="DarkTextColor">#FFF</color>
+    <color name="DarkBackground">#291717</color>
+
+
+<!-- Default Theme -->
+    <color name="colorPrimary">#35a393</color>
+    <color name="colorPrimaryDark">#257569</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="textPrimary">#000000</color>
+    <color name="textSecondary">#555555</color>
+
+<!-- For Gradient Background -->
+    <color name="BackgroundStart">#00FF6F</color>
+    <color name="BackgroundCenter">#84F8B6</color>
+    <color name="BackgroundEnd">#C7EDD7</color>
+
+</resources>

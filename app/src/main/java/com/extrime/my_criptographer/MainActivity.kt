@@ -79,5 +79,4 @@ open class MainActivity : StartActivity() {
         }
         finish()
     }
-
 }

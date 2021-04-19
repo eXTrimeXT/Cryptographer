@@ -13,6 +13,7 @@ import com.extrime.my_criptographer.ui.Algorithms.eXT
 import com.extrime.my_criptographer.ui.Ciphers.AES
 import com.extrime.my_criptographer.ui.Ciphers.BlowFish
 import com.extrime.my_criptographer.ui.Ciphers.DES
+import com.extrime.my_criptographer.ui.Ciphers.RSA
 import com.extrime.my_criptographer.ui.Settings.ThemeColors
 import java.lang.Exception
 
@@ -35,12 +36,13 @@ class Information : AppCompatActivity() {
         GoToBack()
     }
 
-    fun GoToBack() {
+    private fun GoToBack() {
         try {
             if (algorithm == "AES") intent = Intent(this, AES::class.java)
             else if (algorithm == "BLOWFISH") intent = Intent(this, BlowFish::class.java)
             else if (algorithm == "CAESAR") intent = Intent(this, Caesar::class.java)
             else if (algorithm == "DES") intent = Intent(this, DES::class.java)
+            else if (algorithm == "RSA") intent = Intent(this, RSA::class.java)
             else if (algorithm == "EXT") intent = Intent(this, eXT::class.java)
             else if (algorithm == "SWITCH_CHAR") intent = Intent(this, SwitchChar::class.java)
         } catch (e: Exception) {

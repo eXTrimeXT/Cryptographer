@@ -1,6 +1,5 @@
 package com.extrime.my_criptographer
 
-import android.os.Build
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -13,11 +12,7 @@ class AboutProgramFragment : Fragment() {
             View? {
         val view = inflater.inflate(R.layout.aboutprogram_activity, container, false)
         val textView = view.findViewById<TextView>(R.id.tvAboutProgram)
-        if (Build.VERSION.SDK_INT < 26) {
-            textView.append(getString(R.string.about_my_programm))
-        } else textView.append(getString(R.string.about_my_programm_for_Android8_And_Up))
-        textView.append("""API Android-устройства: ${Build.VERSION.SDK_INT}""")
+        textView.append(getString(R.string.about_program))
         return view
     }
 }
-

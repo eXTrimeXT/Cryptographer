@@ -7,6 +7,7 @@ import android.content.Intent
 import android.net.Uri
 import android.os.Build
 import android.os.Bundle
+import android.os.Environment
 import android.util.Log
 import android.view.View
 import android.widget.*
@@ -18,9 +19,11 @@ import com.extrime.my_criptographer.ui.Ciphers.AES
 import com.extrime.my_criptographer.ui.Ciphers.BlowFish
 import com.extrime.my_criptographer.ui.Ciphers.DES
 import com.extrime.my_criptographer.StartActivity.Companion.NAME_SETTINGS
+import com.extrime.my_criptographer.ui.Ciphers.RSA
 import com.extrime.my_criptographer.ui.Settings.SettingsFragment
 import com.extrime.my_criptographer.ui.Settings.ThemeColors
 import kotlinx.android.synthetic.main.nav_header_main.view.*
+import java.io.File
 import java.util.*
 
 open class StartActivity : AppCompatActivity() {
@@ -46,23 +49,11 @@ open class StartActivity : AppCompatActivity() {
         checkSettings()
     }
 
-
-//    fun checkVersion(view: View) {
-//        val version = Build.VERSION.SDK_INT
-//        Log.e(TAG, "version: $version")
-//        if (Build.VERSION.SDK_INT < 26) {
-//            val button_aes = view.findViewById<Button>(R.id.btnAES)
-//            val button_blowfish = view.findViewById<Button>(R.id.btnBlowFish)
-//            button_aes.visibility = View.GONE // скрываем кнопки
-//            button_blowfish.visibility = View.GONE
-//        }
-//    }
-
     open fun MyToast(text: String?) {
         if (isToast) Toast.makeText(this, text, Toast.LENGTH_SHORT).show()
     }
 
-    fun GoTo(text: String?) {
+    private fun GoTo(text: String?) {
         try {
             startActivity(intent)
             MyToast(text)
@@ -80,7 +71,7 @@ open class StartActivity : AppCompatActivity() {
         MyToast("About")
     }
 
-    fun changeTheme(view: View) {
+    fun changeTheme(v: View) {
         val red: Int = Random().nextInt(255)
         val green: Int = Random().nextInt(255)
         val blue: Int = Random().nextInt(255)
@@ -125,10 +116,6 @@ open class StartActivity : AppCompatActivity() {
 
     fun MainClick(view: View) {
         when (view.id) {
-//            R.id.btnAboutProgram -> {
-//                intent = Intent(this, AboutProgram::class.java)
-//                GoTo("About the program")
-//            }
             R.id.BtnCopyText -> CopySecretText()
             R.id.BtnPasteText -> PasteText()
             R.id.BtnClearText -> ClearText()
@@ -136,6 +123,11 @@ open class StartActivity : AppCompatActivity() {
             R.id.go_vk1, R.id.go_vk2, R.id.go_vk3 -> {
                 val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.vk_link)))
                 startActivity(browserIntent)
+            }
+            R.id.setup_new_apk -> {
+                val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.github_link)))
+                startActivity(browserIntent)
+                MyToast("Нажмите на кнопку \"Donwload\" ")
             }
             R.id.btnAES -> {
                 intent = Intent(this, AES::class.java)
@@ -153,6 +145,10 @@ open class StartActivity : AppCompatActivity() {
                 intent = Intent(this, DES::class.java)
                 GoTo("DES")
             }
+            R.id.btnRSA -> {
+                intent = Intent(this, RSA::class.java)
+                GoTo("RSA")
+            }
             R.id.btnEXT -> {
                 intent = Intent(this, eXT::class.java)
                 GoTo("eXT")
@@ -164,18 +160,11 @@ open class StartActivity : AppCompatActivity() {
         }
     }
 
-
     fun checkSettings(){
         val prefs = this.getSharedPreferences(NAME_SETTINGS, MODE_PRIVATE)
         isToast = prefs.getBoolean("Toast", true)
         isExit = prefs.getBoolean("Exit", false)
     }
-
-//    fun FirstChangeTheme(){
-//        val editor = this.getSharedPreferences(NAME_SETTINGS, Context.MODE_PRIVATE).edit()
-//        editor.putString("color", stringColor)
-//        editor.apply()
-//    }
 
     override fun onPause() {
         super.onPause()
@@ -186,7 +175,6 @@ open class StartActivity : AppCompatActivity() {
         super.onBackPressed()
         val intent = Intent(this, MainActivity::class.java)
         startActivity(intent)
-//        MyToast("Алгоритмы")
         finish()
     }
 }
