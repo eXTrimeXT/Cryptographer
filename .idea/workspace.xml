@@ -13,50 +13,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08c83ced-d75a-4d18-8055-4f202d7a2a3a" name="Default Changelist" comment="&quot;Edit layout's for all displays&quot;">
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp/ext_activity.xml" afterDir="false" />
+    <list default="true" id="08c83ced-d75a-4d18-8055-4f202d7a2a3a" name="Default Changelist" comment="&quot;Finish work on displays&quot;">
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/extrime/my_criptographer/MainActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/extrime/my_criptographer/MainActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/extrime/my_criptographer/StartActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/extrime/my_criptographer/StartActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/extrime/my_criptographer/ui/Algorithms/Caesar.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/extrime/my_criptographer/ui/Algorithms/Caesar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/extrime/my_criptographer/ui/Algorithms/SwitchChar.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/extrime/my_criptographer/ui/Algorithms/SwitchChar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/extrime/my_criptographer/ui/Algorithms/eXT.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/extrime/my_criptographer/ui/Algorithms/eXT.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/extrime/my_criptographer/ui/Ciphers/AES$aesListener$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/extrime/my_criptographer/ui/Ciphers/AES$aesListener$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/extrime/my_criptographer/ui/Ciphers/AES.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/extrime/my_criptographer/ui/Ciphers/AES.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/extrime/my_criptographer/ui/Ciphers/BlowFish$blowfishListener$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/extrime/my_criptographer/ui/Ciphers/BlowFish$blowfishListener$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/extrime/my_criptographer/ui/Ciphers/BlowFish.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/extrime/my_criptographer/ui/Ciphers/BlowFish.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/extrime/my_criptographer/ui/Ciphers/DES$desListener$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/extrime/my_criptographer/ui/Ciphers/DES$desListener$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/extrime/my_criptographer/ui/Ciphers/DES.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/extrime/my_criptographer/ui/Ciphers/DES.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/extrime/my_criptographer/ui/Algorithms/eXT.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/extrime/my_criptographer/ui/Algorithms/eXT.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/extrime/my_criptographer/ui/Ciphers/AES.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/extrime/my_criptographer/ui/Ciphers/AES.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/extrime/my_criptographer/ui/Ciphers/BlowFish.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/extrime/my_criptographer/ui/Ciphers/BlowFish.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/extrime/my_criptographer/ui/Ciphers/DES.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/extrime/my_criptographer/ui/Ciphers/DES.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/aes_activity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/aes_activity.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/algorithms_activity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/algorithms_activity.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/blowfish_and_des_activity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/blowfish_and_des_activity.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/ciphers_activity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/ciphers_activity.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/ext_activity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/ext_activity.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/rsa_activity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/rsa_activity.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[A6LDU15A15000332]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -141,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626347900304</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="&quot;Finish work on displays&quot;">
+      <created>1626360489875</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1626360489875</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -159,6 +138,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;Edit mp4 Files&quot;" />
     <MESSAGE value="&quot;Edit layout's for all displays&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Edit layout's for all displays&quot;" />
+    <MESSAGE value="&quot;Finish work on displays&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Finish work on displays&quot;" />
   </component>
 </project>
