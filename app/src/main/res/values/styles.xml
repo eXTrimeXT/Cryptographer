@@ -1,38 +1,19 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-  <!-- Base application theme. -->
+    <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
-        <item name="android:windowTranslucentNavigation"
-              tools:targetApi="kitkat">true</item>
-        <item name="android:navigationBarColor"
-              tools:targetApi="lollipop">@android:color/transparent</item>
+        <item name="android:windowTranslucentNavigation" tools:targetApi="kitkat">true</item>
+        <item name="android:navigationBarColor" tools:targetApi="lollipop">@android:color/transparent</item>
     </style>
-<!--    &lt;!&ndash; Base application theme. &ndash;&gt;-->
-<!--    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
-<!--        &lt;!&ndash; Customize your theme here. &ndash;&gt;-->
-<!--        <item name="colorPrimary">@color/colorPrimary</item>-->
-<!--        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
-<!--        <item name="colorAccent">@color/colorAccent</item>-->
-<!--    </style>-->
-z
+
     <style name="LightStyle" parent="Theme.AppCompat.DayNight.DarkActionBar">
         <item name="colorPrimary">@color/LightColorPrimary</item>
         <item name="colorPrimaryDark">@color/LightColorPrimaryDark</item>
         <item name="colorAccent">@color/LightColorAccent</item>
         <item name="colorButtonNormal">@color/LightColorButtonNormal</item>
         <item name="android:textColor">@color/LightTextColor</item>
-<!--        <item name="background">@color/LightBackground</item>-->
-    </style>
-
-    <style name="DarkStyle" parent="Theme.AppCompat.DayNight.DarkActionBar">
-        <item name="colorPrimary">@color/DarkColorPrimary</item>
-        <item name="colorPrimaryDark">@color/DarkColorPrimaryDark</item>
-        <item name="colorAccent">@color/DarkColorAccent</item>
-        <item name="colorButtonNormal">@color/DarkColorButtonNormal</item>
-        <item name="android:textColor">@color/DarkTextColor</item>
-<!--        <item name="android:background">@color/DarkBackground</item>-->
     </style>
 
     <style name="AppTheme.NoActionBar">

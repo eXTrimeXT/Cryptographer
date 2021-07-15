@@ -43,20 +43,27 @@ open class MainActivity : StartActivity() {
         try {
             val toolbar: Toolbar = findViewById(R.id.toolbar)
             setSupportActionBar(toolbar)
-        }catch (e: Exception){
-            Log.e(TAG, " ToolBar Error !!!")
-        }finally {
+            val sharedPreferences = this.getSharedPreferences(NAME_SETTINGS, Context.MODE_PRIVATE)
+            val stringColor = sharedPreferences.getString("color", "D81B60")
+            val bgr_color = Color.parseColor("#$stringColor")
+            toolbar.setBackgroundColor(bgr_color)
+            toolbar.setTitleTextColor(Color.WHITE)
+        } catch (e: Exception) {
+            Log.e(TAG, "ToolBar Error !!!")
+        } finally {
             val drawerLayout: DrawerLayout = findViewById(R.id.drawer_layout)
             val navView: NavigationView = findViewById(R.id.nav_view)
             val navController = findNavController(R.id.nav_host_fragment)
             // Передаем каждый идентификатор меню, как набор идентификаторов,
             // потому что каждое меню следует рассматривать как пункты назначения верхнего уровня.
-            appBarConfiguration = AppBarConfiguration(setOf(
-                R.id.nav_algorithms,
-                R.id.nav_ciphers,
-                R.id.nav_settings,
-                R.id.nav_about_program
-            ), drawerLayout)
+            appBarConfiguration = AppBarConfiguration(
+                setOf(
+                    R.id.nav_algorithms,
+                    R.id.nav_ciphers,
+                    R.id.nav_settings,
+                    R.id.nav_about_program
+                ), drawerLayout
+            )
 
             setupActionBarWithNavController(navController, appBarConfiguration)
             navView.setupWithNavController(navController)

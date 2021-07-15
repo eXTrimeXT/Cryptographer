@@ -41,7 +41,7 @@
             android:onClick="changeTheme"
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
-            android:text="Сменить цвет"
+            android:text="Выбрать случайный цвет"
             android:textAllCaps="false"
             android:scrollbarStyle="insideOverlay"
             style="@style/Widget.AppCompat.Button.Colored"
@@ -50,6 +50,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/setExit"
-            app:layout_constraintVertical_bias="0"/>
+            app:layout_constraintVertical_bias="0" android:textColorLink="#D81B60"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

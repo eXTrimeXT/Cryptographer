@@ -4,14 +4,23 @@ import android.content.Context
 import android.os.Build
 import android.content.Intent
 import android.graphics.Color
-import android.util.Log
 import com.extrime.my_criptographer.R
 import com.extrime.my_criptographer.StartActivity
-import com.extrime.my_criptographer.StartActivity.Companion.TAG
 import com.extrime.my_criptographer.StartActivity.Companion.NAME_SETTINGS
 
 class ThemeColors(context: Context) {
     var color: Int
+
+    init {
+        val sharedPreferences = context.getSharedPreferences(NAME_SETTINGS, Context.MODE_PRIVATE)
+        val stringColor = sharedPreferences.getString("color", "d81b60")
+        color = Color.parseColor("#$stringColor")
+        if (isLightActionBar) context.setTheme(R.style.AppTheme)
+
+        context.setTheme(
+            context.resources.getIdentifier("T_$stringColor", "style", context.packageName)
+        )
+    }
 
     // Checking if title text color will be black
     private val isLightActionBar: Boolean
@@ -22,13 +31,10 @@ class ThemeColors(context: Context) {
 
     companion object {
         fun setNewThemeColor(activity: StartActivity, red: Int, green: Int, blue: Int) {
-            var red = red
-            var green = green
-            var blue = blue
             val colorStep = 15
-            red = Math.round((red / colorStep).toFloat()) * colorStep
-            green = Math.round((green / colorStep).toFloat()) * colorStep
-            blue = Math.round((blue / colorStep).toFloat()) * colorStep
+            val red = Math.round((red / colorStep).toFloat()) * colorStep
+            val green = Math.round((green / colorStep).toFloat()) * colorStep
+            val blue = Math.round((blue / colorStep).toFloat()) * colorStep
             val stringColor = Integer.toHexString(Color.rgb(red, green, blue)).substring(2)
             val editor = activity.getSharedPreferences(NAME_SETTINGS, Context.MODE_PRIVATE).edit()
             editor.putString("color", stringColor)
@@ -40,16 +46,5 @@ class ThemeColors(context: Context) {
                 activity.startActivity(i)
             }
         }
-    }
-
-    init {
-        val sharedPreferences = context.getSharedPreferences(NAME_SETTINGS, Context.MODE_PRIVATE)
-        val stringColor = sharedPreferences.getString("color", "B64D4D")
-        color = Color.parseColor("#$stringColor")
-        if (isLightActionBar) context.setTheme(R.style.AppTheme)
-        context.setTheme(
-            context.resources.getIdentifier
-                ("T_$stringColor", "style", context.packageName)
-        )
     }
 }
