@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MyCryptographer</string>
+    <string name="app_name">Cryptographer</string>
     <string name="main_menu_text">code</string>
     <string name="encrypt">Зашифровать</string>
     <string name="decrypt">Дешифровать</string>
@@ -18,7 +18,7 @@
 
     <string name="Введите_текст">Введите текст</string>
     <string name="Введите_Пароль">Введите Пароль</string>
-    <string name="Ваш_шифр">Ваш шифр</string>
+    <string name="Ваш_шифр"> </string>
 
     <string name="theme_title">Themes:</string>
     <string name="light_theme">Dark theme</string>

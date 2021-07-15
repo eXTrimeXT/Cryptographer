@@ -45,7 +45,8 @@
             app:layout_constraintBottom_toTopOf="@+id/gridLayout"
             android:layout_marginBottom="20dp"
             app:layout_constraintStart_toStartOf="@+id/gridLayout"
-            app:layout_constraintEnd_toEndOf="@+id/gridLayout"/>
+            app:layout_constraintEnd_toEndOf="@+id/gridLayout"
+            tools:ignore="TextFields"/>
     <GridLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -73,8 +74,8 @@
             <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:paddingLeft="40dp"
-                    android:paddingRight="40dp"
+                    android:paddingLeft="140dp"
+                    android:paddingRight="140dp"
                     android:text="Выберите метод"/>
             <RadioButton
                     android:id="@+id/radio_4"
@@ -103,8 +104,8 @@
                     android:text="Выберите ключ"
                     android:id="@+id/key"
                     android:layout_gravity="center"
-                    android:paddingLeft="42dp"
-                    android:paddingRight="42dp"
+                    android:paddingLeft="142dp"
+                    android:paddingRight="142dp"
             />
             <RadioButton
                     android:id="@+id/radio_2"
@@ -147,10 +148,11 @@
                 android:textAllCaps="false"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingLeft="50dp"
-                android:paddingRight="50dp"
+                android:paddingLeft="105dp"
+                android:paddingRight="105dp"
                 android:onClick="MainClick"
-                android:id="@+id/BtnCopyText"/>
+                android:id="@+id/BtnCopyText"
+                tools:ignore="OnClick"/>
         <Button
                 style="@style/Widget.AppCompat.Button.Colored"
                 android:text="Вставить"
@@ -159,7 +161,8 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="fill"
                 android:onClick="MainClick"
-                android:id="@+id/BtnPasteText"/>
+                android:id="@+id/BtnPasteText"
+                tools:ignore="OnClick"/>
         <Button
                 style="@style/Widget.AppCompat.Button.Colored"
                 android:text="Очистить"

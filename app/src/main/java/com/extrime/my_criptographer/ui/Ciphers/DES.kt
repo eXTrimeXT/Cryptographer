@@ -2,14 +2,10 @@ package com.extrime.my_criptographer.ui.Ciphers
 
 import android.os.Bundle
 import kotlin.Throws
-import android.content.ClipData
-import android.content.ClipboardManager
-import android.content.Intent
 import android.util.Base64
 import android.util.Log
 import android.view.View
 import android.widget.*
-import com.extrime.my_criptographer.MainActivity
 import com.extrime.my_criptographer.R
 import com.extrime.my_criptographer.StartActivity
 import java.io.ByteArrayInputStream
@@ -17,12 +13,12 @@ import java.io.ByteArrayOutputStream
 import java.io.IOException
 import java.lang.Exception
 import java.lang.StringBuilder
-import java.nio.charset.StandardCharsets
 import java.security.InvalidKeyException
 import java.security.NoSuchAlgorithmException
 import java.security.spec.InvalidKeySpecException
 import javax.crypto.*
 import javax.crypto.spec.DESKeySpec
+import kotlin.text.Charsets.UTF_8
 
 open class DES : StartActivity() {
     private var cipher: Cipher? = null
@@ -72,7 +68,7 @@ open class DES : StartActivity() {
     @Throws(IOException::class, InvalidKeyException::class,
         NoSuchAlgorithmException::class, InvalidKeySpecException::class)
     private fun DES_CreateKeys(input: String, key: String, Encode: Boolean) {
-        val KS = DESKeySpec(key.toByteArray(StandardCharsets.UTF_8))
+        val KS = DESKeySpec(key.toByteArray(UTF_8))
         val skf = SecretKeyFactory.getInstance(algorithm)
         val desKey = skf.generateSecret(KS)
         val cis: CipherInputStream =

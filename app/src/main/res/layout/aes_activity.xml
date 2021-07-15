@@ -8,9 +8,22 @@
         android:background="@drawable/background"
         tools:context=".ui.Ciphers.AES">
 
+    <ImageButton
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@android:drawable/ic_menu_info_details"
+            android:layout_y="40dp"
+            android:layout_x="330dp"
+            android:id="@+id/BtnInfo"
+            app:layout_constraintStart_toStartOf="@+id/input_text"
+            app:layout_constraintBottom_toBottomOf="@+id/input_text"
+            android:layout_marginBottom="70dp"
+            app:layout_constraintEnd_toEndOf="@+id/input_text"
+            app:layout_constraintHorizontal_bias="0.98"/>
     <EditText
-            android:layout_width="155dp"
-            android:layout_height="89dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:text=""
             android:hint="@string/Введите_текст"
             android:layout_y="40dp"
@@ -22,33 +35,32 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.2"
             app:layout_constraintHorizontal_bias="0.5"/>
+
     <EditText
-            android:layout_width="159dp"
-            android:layout_height="62dp"
-            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:hint="@string/Введите_Пароль"
             android:layout_y="144dp"
             android:layout_x="122dp"
             android:id="@+id/password"
             app:layout_constraintEnd_toEndOf="@+id/input_text"
             app:layout_constraintStart_toStartOf="@+id/input_text"
-            android:layout_marginTop="23dp"
+            android:layout_marginTop="20dp"
             app:layout_constraintTop_toBottomOf="@+id/input_text"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintVertical_bias="0.0"/>
+
     <RadioGroup
             android:id="@+id/radioGroup"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:layout_y="220dp"
-            android:layout_x="0dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="20dp"
             app:layout_constraintTop_toBottomOf="@+id/password"
-            app:layout_constraintHorizontal_bias="0.0"
-    >
+            app:layout_constraintStart_toStartOf="@+id/password"
+            app:layout_constraintEnd_toEndOf="@+id/password">
 
         <RadioButton
                 android:id="@+id/radio_128"
@@ -56,27 +68,24 @@
                 android:layout_height="wrap_content"
                 android:text="128"
                 android:checked="true"
-                android:layout_marginLeft="50dp"
         />
         <RadioButton
                 android:id="@+id/radio_192"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="192"
-                android:layout_marginLeft="50dp"
         />
         <RadioButton
                 android:id="@+id/radio_256"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="256"
-                android:layout_marginLeft="50dp"
         />
     </RadioGroup>
+
     <TextView
-            android:layout_width="151dp"
-            android:layout_height="92dp"
-            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:gravity="center"
             android:hint="@string/Ваш_шифр"
             android:layout_y="285dp"
@@ -85,102 +94,72 @@
             app:layout_constraintStart_toStartOf="@+id/radioGroup"
             app:layout_constraintEnd_toEndOf="@+id/radioGroup"
             app:layout_constraintTop_toBottomOf="@+id/radioGroup"
-            android:layout_marginTop="16dp"/>
-    <Button
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:text="@string/encrypt"
-            android:textAllCaps="false"
-            android:layout_width="120dp"
+            android:layout_marginTop="20dp"/>
+
+    <GridLayout
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_y="390dp"
-            android:layout_x="50dp"
-            android:id="@+id/BtnEncrypt"
+            android:columnCount="3"
+            android:rowCount="2"
+            tools:ignore="MissingConstraints"
             app:layout_constraintTop_toBottomOf="@+id/secret_text"
-            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toStartOf="@+id/secret_text"
+            app:layout_constraintEnd_toEndOf="@+id/secret_text"
+            app:layout_constraintHorizontal_bias="0.497"
+            android:layout_marginTop="20dp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintVertical_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.15"/>
-    <Button
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:text="@string/decrypt"
-            android:textAllCaps="false"
-            android:layout_width="120dp"
-            android:layout_height="wrap_content"
-            android:layout_y="390dp"
-            android:layout_x="230dp"
-            android:id="@+id/BtnDecrypt"
-            app:layout_constraintStart_toEndOf="@+id/BtnEncrypt"
-            android:layout_marginStart="84dp"
-            app:layout_constraintTop_toTopOf="@+id/BtnEncrypt"
-            app:layout_constraintBottom_toBottomOf="@+id/BtnEncrypt"
-            app:layout_constraintEnd_toEndOf="@+id/radioGroup"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintVertical_bias="0.0"/>
-    <Button
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:text="Скопировать"
-            android:textAllCaps="false"
-            android:layout_width="120dp"
-            android:layout_height="wrap_content"
-            android:layout_y="460dp"
-            android:layout_x="50dp"
-            android:onClick="MainClick"
-            android:id="@+id/BtnCopyText"
-            tools:ignore="OnClick"
-            app:layout_constraintStart_toStartOf="@+id/BtnEncrypt"
-            app:layout_constraintEnd_toEndOf="@+id/BtnEncrypt"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/BtnEncrypt"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintVertical_bias="0.097"/>
-    <Button
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:text="Очистить"
-            android:textAllCaps="false"
-            android:layout_width="120dp"
-            android:layout_height="wrap_content"
-            android:layout_y="530dp"
-            android:layout_x="140dp"
-            android:onClick="MainClick"
-            android:id="@+id/BtnClearText"
-            tools:ignore="OnClick"
-            app:layout_constraintEnd_toEndOf="@+id/BtnPasteText"
-            app:layout_constraintStart_toStartOf="@+id/BtnCopyText"
-            app:layout_constraintTop_toTopOf="@+id/BtnCopyText"
-            android:layout_marginTop="56dp"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintVertical_bias="0.0"/>
-    <ImageButton
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            app:srcCompat="@android:drawable/ic_menu_info_details"
-            android:layout_y="40dp"
-            android:layout_x="330dp"
-            android:id="@+id/BtnInfo"
-            app:layout_constraintStart_toStartOf="@+id/input_text"
-            android:layout_marginStart="176dp"
-            app:layout_constraintBottom_toBottomOf="@+id/input_text"
-            android:layout_marginBottom="88dp"/>
-    <Button
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:text="Вставить"
-            android:textAllCaps="false"
-            android:layout_width="120dp"
-            android:layout_height="wrap_content"
-            android:layout_y="460dp"
-            android:layout_x="230dp"
-            android:onClick="MainClick"
-            android:id="@+id/BtnPasteText"
-            tools:ignore="OnClick"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintVertical_bias="0.1"
-            app:layout_constraintEnd_toEndOf="@+id/BtnDecrypt"
-            app:layout_constraintStart_toStartOf="@+id/BtnDecrypt"
-            app:layout_constraintTop_toBottomOf="@+id/BtnDecrypt"
-            app:layout_constraintBottom_toBottomOf="parent"
-    />
+            app:layout_constraintVertical_bias="0">
+        <Button
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:text="@string/encrypt"
+                android:textAllCaps="false"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/BtnEncrypt"
+                android:layout_column="0"
+        />
+        <Button
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:text="@string/decrypt"
+                android:textAllCaps="false"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/BtnDecrypt"
+                android:layout_column="2"
+        />
+        <Button
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:text="Скопировать"
+                android:textAllCaps="false"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:onClick="MainClick"
+                android:id="@+id/BtnCopyText"
+                tools:ignore="OnClick"
+                android:layout_column="0"
+        />
+        <Button
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:text="Очистить"
+                android:textAllCaps="false"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:onClick="MainClick"
+                android:id="@+id/BtnClearText"
+                tools:ignore="OnClick"
+                android:layout_column="1"
+
+        />
+        <Button
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:text="Вставить"
+                android:textAllCaps="false"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:onClick="MainClick"
+                android:id="@+id/BtnPasteText"
+                tools:ignore="OnClick"
+                android:layout_column="2"
+        />
+    </GridLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

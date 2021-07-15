@@ -90,10 +90,6 @@ class eXT : StartActivity() {
         else return pass.toInt() + 1283
     }
 
-    fun setKeyText(str: String?) {
-        (findViewById<View>(R.id.key) as TextView).text = str
-    }
-
     fun setSecretText(str: String?) {
         (findViewById<View>(R.id.secret_text) as TextView).text = str
     }
@@ -136,7 +132,6 @@ class eXT : StartActivity() {
     }
 
     fun Second_Step() {
-        setKeyText("""Какой ключ выбрать? $x1 или $x2""")
         first_root!!.text = x1.toString()
         second_root!!.text = x2.toString()
     }

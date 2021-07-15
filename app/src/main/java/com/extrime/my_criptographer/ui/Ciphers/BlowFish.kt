@@ -7,12 +7,15 @@ import android.widget.TextView
 import com.extrime.my_criptographer.Base64
 import com.extrime.my_criptographer.R
 import com.extrime.my_criptographer.StartActivity
+import java.io.ByteArrayInputStream
+import java.io.ByteArrayOutputStream
 import java.lang.Exception
-import java.nio.charset.StandardCharsets
 import java.security.NoSuchAlgorithmException
 import javax.crypto.Cipher
+import javax.crypto.CipherInputStream
 import javax.crypto.NoSuchPaddingException
 import javax.crypto.spec.SecretKeySpec
+import kotlin.text.Charsets.UTF_8
 
 class BlowFish : StartActivity() {
     var KeyData : ByteArray? = null
@@ -53,7 +56,7 @@ class BlowFish : StartActivity() {
             key = (findViewById<View>(R.id.password) as EditText).text.toString()
             createCipherAndKey(key!!)
             cipher!!.init(Cipher.ENCRYPT_MODE, KS)
-            val encrypted = cipher!!.doFinal(input!!.toByteArray(StandardCharsets.UTF_8))
+            val encrypted = cipher!!.doFinal(input!!.toByteArray(UTF_8))
             val encode = Base64.getEncoder().encodeToString(encrypted)
             (findViewById<View>(R.id.secret_text) as TextView).text = encode
             MyToast("Зашифровано")
@@ -68,9 +71,15 @@ class BlowFish : StartActivity() {
             key = (findViewById<View>(R.id.password) as EditText).text.toString()
             createCipherAndKey(key!!)
             cipher!!.init(Cipher.DECRYPT_MODE, KS)
-            val decode = String(cipher!!.doFinal(Base64.getDecoder().decode(input)))
-            println("decode = $decode")
-            (findViewById<View>(R.id.secret_text) as TextView).text = decode
+            val output = ByteArrayOutputStream()
+            val buffer = ByteArray(64)
+            var numBytes: Int
+            val cis = CipherInputStream(ByteArrayInputStream(android.util.Base64.decode(input, android.util.Base64.DEFAULT)), cipher)
+            while (cis.read(buffer).also { numBytes = it } != -1) {
+                output.write(buffer, 0, numBytes)
+            }
+
+            (findViewById<View>(R.id.secret_text) as TextView).text = output.toString()
             MyToast("Дешифровано")
         } catch (e: Exception) {
             if (input == null || key == null) MyToast("Заполните все поля!")

@@ -7,14 +7,17 @@ import android.widget.EditText
 import android.widget.TextView
 import com.extrime.my_criptographer.Base64
 import com.extrime.my_criptographer.R
+import java.io.ByteArrayInputStream
+import java.io.ByteArrayOutputStream
 import java.lang.Exception
-import java.nio.charset.StandardCharsets
 import java.security.MessageDigest
 import java.security.NoSuchAlgorithmException
 import java.util.Arrays
 import javax.crypto.Cipher
+import javax.crypto.CipherInputStream
 import javax.crypto.SecretKey
 import javax.crypto.spec.SecretKeySpec
+import kotlin.text.Charsets.UTF_8
 
 class AES : DES() {
     private var secretKey: SecretKey? = null
@@ -47,7 +50,7 @@ class AES : DES() {
 
     fun setKey(myKey: String) {
         try {
-            var key: ByteArray? = myKey.toByteArray(StandardCharsets.UTF_8)
+            var key: ByteArray? = myKey.toByteArray(UTF_8)
             val sha = MessageDigest.getInstance("SHA-1")
             key = sha.digest(key)
             key = Arrays.copyOf(key, bits_key / 8)
@@ -62,7 +65,7 @@ class AES : DES() {
             setKey(secret)
             cipher = Cipher.getInstance(algorithm)
             cipher!!.init(Cipher.ENCRYPT_MODE, secretKey)
-            val arr_encode = cipher!!.doFinal(strToEncrypt.toByteArray(StandardCharsets.UTF_8))
+            val arr_encode = cipher!!.doFinal(strToEncrypt.toByteArray(UTF_8))
             return Base64.getEncoder().encodeToString(arr_encode)
         } catch (e: Exception) {
             println("Error while encrypting: $e")
@@ -75,7 +78,14 @@ class AES : DES() {
             setKey(secret)
             cipher = Cipher.getInstance(algorithm)
             cipher!!.init(Cipher.DECRYPT_MODE, secretKey)
-            return String(cipher!!.doFinal(Base64.getDecoder().decode(strToDecrypt)))
+            val output = ByteArrayOutputStream()
+            val buffer = ByteArray(64)
+            var numBytes: Int
+            val cis = CipherInputStream(ByteArrayInputStream(android.util.Base64.decode(input, android.util.Base64.DEFAULT)), cipher)
+            while (cis.read(buffer).also { numBytes = it } != -1) {
+                output.write(buffer, 0, numBytes)
+            }
+            return output.toString()
         } catch (e: Exception) {
             println("Error while decrypting: $e")
         }
