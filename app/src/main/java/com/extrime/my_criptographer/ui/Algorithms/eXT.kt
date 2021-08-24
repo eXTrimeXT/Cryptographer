@@ -152,16 +152,12 @@ class eXT : StartActivity() {
         if (isEncode) {
             zero = 0
         }
-        for (i in 0 until str!!.length) {
-            // нечетный
-            // получаем букву по коду
-            // 1040 - это код буквы А, 32 - это кол-во букв
-            if (i % 2 == zero) {
-                z = str[i].toInt() + step
-            } else {
-                z = str[i].toInt() - step
-            }
-            y = (z - 1040) % 32 + 1040 // 1040 - это код буквы А, 32 - это кол-во букв
+        for (i in str!!.indices) {
+            /* TODO: получаем букву по коду, добавляем шаг, в зависимости от движения влево или вправо
+                1040 - это код буквы А, 32 - это кол-во букв */
+            val zz = if (isEncode) str[i].toInt() + step else str[i].toInt() - step
+            Log.d(TAG, "zz = $zz & ${zz.toChar()}")
+            y = (zz - 1040) % 32 + 1040 // 1040 - это код буквы А, 32 - это кол-во букв
             new_str.append(y.toChar()) // получаем букву по коду
         }
         Log.e(TAG, "ответ = $new_str\nЧетность = $isEncode")

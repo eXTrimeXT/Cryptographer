@@ -38,7 +38,7 @@
             android:layout_height="wrap_content"
             android:text=""
             android:inputType="phone"
-            android:hint="password>999"
+            android:hint="password"
             android:layout_y="240dp"
             android:layout_x="120dp"
             android:id="@+id/password"

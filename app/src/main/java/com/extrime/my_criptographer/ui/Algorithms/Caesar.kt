@@ -1,6 +1,7 @@
 package com.extrime.my_criptographer.ui.Algorithms
 
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import android.widget.EditText
 import android.widget.TextView
@@ -33,21 +34,17 @@ class Caesar : StartActivity() {
 
     private fun ClickLeft(isLeft: Boolean) {
         try {
-            // получаем текст из поля input_text
             val text = (findViewById<View>(R.id.input_text) as EditText).text.toString()
-            val step = step
-            if (step > maxStep) MyToast(conditionStep)
-            else {
-                val new_str = StringBuilder()
-                for (i in text.indices) {
-                    c = if (isLeft) text[i].toByte() - step // влево
-                    else text[i].toByte() + step // вправо
-                    y =
-                        (c - 1040) % 32 + 1040 // 1040 - это код буквы А, 32 - это кол-во букв 1072 - это код буквы а, 1103 - код буквы я
-                    new_str.append(y.toChar()) // получаем букву по коду
-                }
-                (findViewById<View>(R.id.secret_text) as TextView).text = new_str.toString()
+            val new_str = StringBuilder()
+            for (i in text.indices) {
+                /* TODO: получаем букву по коду, добавляем шаг, в зависимости от движения влево или вправо
+                    1040 - это код буквы А, 32 - это кол-во букв */
+                val zz = if (isLeft) text[i].toInt() + step else text[i].toInt() - step
+                Log.d(TAG, "zz = $zz & ${zz.toChar()}")
+                y = (zz - 1040) % 32 + 1040 // 1040 - это код буквы А, 32 - это кол-во букв
+                new_str.append(y.toChar()) // получаем букву по коду
             }
+            (findViewById<View>(R.id.secret_text) as TextView).text = new_str.toString()
         } catch (e: Exception) {
             MyToast("Заполните все поля!")
         }
