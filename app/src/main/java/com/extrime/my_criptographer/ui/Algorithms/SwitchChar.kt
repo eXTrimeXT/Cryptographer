@@ -21,6 +21,7 @@ class SwitchChar : StartActivity() {
         from_charET = findViewById(R.id.password)
         to_charET = findViewById(R.id.secret_text)
         edit_textET = findViewById(R.id.input_text)
+        initAds() // todo: Init Ads
     }
 
     fun onClick(context: View?) {

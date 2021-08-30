@@ -7,9 +7,18 @@
         android:layout_height="match_parent"
         xmlns:tools="http://schemas.android.com/tools"
         android:background="@drawable/background"
-        android:padding="20dp"
         tools:context=".AboutProgramFragment">
-
+    <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:layout_gravity="center"
+            android:columnCount="1"
+            android:alignmentMode="alignMargins"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
     <TextView
             android:text="@string/about_program"
             android:textSize="18sp"
@@ -28,6 +37,7 @@
             android:textAllCaps="false"
             android:gravity="center"
             android:onClick="MainClick"
+            tools:ignore="OnClick"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/setup_new_apk"
@@ -37,4 +47,5 @@
             app:layout_constraintStart_toStartOf="@+id/tvAboutProgram"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintVertical_bias="0.0"/>
+    </GridLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -20,6 +20,7 @@ class Caesar : StartActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.caesar_activity)
         SetOnClick(caesarListener)
+        initAds() // todo: Init Ads
     }
 
     private val step: Byte get() = (findViewById<View>(R.id.password) as EditText).text.toString().toByte()

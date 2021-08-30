@@ -112,4 +112,5 @@
             app:layout_constraintBottom_toTopOf="@+id/BtnDecrypt"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintVertical_bias="0.386"/>
+    <include layout="@layout/ads_layout"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

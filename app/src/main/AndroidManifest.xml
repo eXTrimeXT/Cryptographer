@@ -11,47 +11,55 @@
             android:screenOrientation="portrait"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
+        <activity android:name=".AdsActivity">
+        </activity>
         <activity
                 android:name=".MainActivity"
-                android:screenOrientation="portrait"
                 android:label="@string/app_name"
+                android:screenOrientation="portrait"
                 android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
+
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
         <activity
                 android:name=".ui.Ciphers.AES"
-                android:screenOrientation="portrait"
-                android:label="AES"/>
+                android:label="AES"
+                android:screenOrientation="portrait"/>
         <activity
                 android:name=".ui.Ciphers.BlowFish"
-                android:screenOrientation="portrait"
-                android:label="BlowFish"/>
+                android:label="BlowFish"
+                android:screenOrientation="portrait"/>
         <activity
                 android:name=".ui.Algorithms.Caesar"
-                android:screenOrientation="portrait"
-                android:label="Caesar"/>
+                android:label="Caesar"
+                android:screenOrientation="portrait"/>
         <activity
                 android:name=".ui.Ciphers.DES"
-                android:screenOrientation="portrait"
-                android:label="DES"/>
+                android:label="DES"
+                android:screenOrientation="portrait"/>
         <activity
                 android:name=".ui.Ciphers.RSA"
-                android:screenOrientation="portrait"
-                android:label="RSA"/>
+                android:label="RSA"
+                android:screenOrientation="portrait"/>
         <activity
                 android:name=".ui.Algorithms.eXT"
-                android:screenOrientation="portrait"
-                android:label="eXT"/>
+                android:label="eXT"
+                android:screenOrientation="portrait"/>
         <activity
                 android:name=".Information"
-                android:screenOrientation="portrait"
-                android:label="Information"/>
+                android:label="Information"
+                android:screenOrientation="portrait"/>
         <activity
                 android:name=".ui.Algorithms.SwitchChar"
-                android:screenOrientation="portrait"
-                android:label="SwitchChar"/>
+                android:label="SwitchChar"
+                android:screenOrientation="portrait"/>
+
+        <meta-data
+                android:name="com.google.android.gms.ads.APPLICATION_ID"
+                android:value="ca-app-pub-3940256099942544~6300978111"/>
     </application>
+
 </manifest>

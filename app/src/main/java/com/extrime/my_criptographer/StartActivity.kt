@@ -22,6 +22,7 @@ import com.extrime.my_criptographer.StartActivity.Companion.NAME_SETTINGS
 import com.extrime.my_criptographer.ui.Ciphers.RSA
 import com.extrime.my_criptographer.ui.Settings.SettingsFragment
 import com.extrime.my_criptographer.ui.Settings.ThemeColors
+import com.google.android.gms.ads.*
 import kotlinx.android.synthetic.main.nav_header_main.view.*
 import java.io.File
 import java.util.*
@@ -41,6 +42,7 @@ open class StartActivity : AppCompatActivity() {
         var btn_info: ImageButton? = null
         var btn_Encrypt: Button? = null
         var btn_Decrypt: Button? = null
+        lateinit var mAdView: AdView
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -49,6 +51,15 @@ open class StartActivity : AppCompatActivity() {
         checkSettings()
     }
 
+    fun initAds(){
+        // TODO: Start ADS
+        val adView = AdView(this)
+        MobileAds.initialize(this)
+        mAdView = findViewById(R.id.adView)
+        val adsClass = AdsClass()
+        adsClass.initAds(adView, mAdView)
+        // TODO: End ADS
+    }
     open fun MyToast(text: String?) {
         if (isToast) Toast.makeText(this, text, Toast.LENGTH_SHORT).show()
     }

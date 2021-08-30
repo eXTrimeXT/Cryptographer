@@ -18,7 +18,7 @@
 
     <string name="Введите_текст">Введите текст</string>
     <string name="Введите_Пароль">Введите Пароль</string>
-    <string name="Ваш_шифр"> </string>
+    <string name="Ваш_шифр"></string>
 
     <string name="theme_title">Themes:</string>
     <string name="light_theme">Dark theme</string>
@@ -36,6 +36,7 @@
     <string name="menu_Ciphers">Ciphers</string>
     <string name="menu_Settings">Settings</string>
     <string name="menu_About">About Program</string>
+<!--    <string name="AdsUnitID">ca-app-pub-3940256099942544/6300978111</string>-->
 
     <string name="about_program">
         Благодаря программе \"Criptographer\" вы можете

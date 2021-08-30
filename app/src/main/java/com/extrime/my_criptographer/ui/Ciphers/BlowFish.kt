@@ -28,6 +28,7 @@ class BlowFish : StartActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.blowfish_and_des_activity)
         SetOnClick(blowfishListener)
+        initAds() // todo: Init Ads
     }
 
     private val blowfishListener = View.OnClickListener { view: View ->

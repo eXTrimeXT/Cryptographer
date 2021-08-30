@@ -38,6 +38,7 @@ class AES : DES() {
         rb_192 = findViewById(R.id.radio_192)
         rb_256 = findViewById(R.id.radio_256)
         SetOnClick(aesListener)
+        initAds() // todo: Init Ads
     }
 
     private val aesListener = View.OnClickListener { view: View ->

@@ -29,7 +29,7 @@ class SettingsFragment : Fragment() {
             View? {
         val view = inflater.inflate(R.layout.settings_activity, container, false)
 
-        prefs = this.activity!!.getSharedPreferences(NAME_SETTINGS, MODE_PRIVATE)
+        prefs = this.requireActivity().getSharedPreferences(NAME_SETTINGS, MODE_PRIVATE)
 
         initToast(view)
         initExit(view)
@@ -78,7 +78,7 @@ class SettingsFragment : Fragment() {
     override fun onPause() {
         super.onPause()
         // пишем нужное в SharedPreferences
-        val ed = this.activity!!.getSharedPreferences(NAME_SETTINGS, MODE_PRIVATE).edit()
+        val ed = this.requireActivity().getSharedPreferences(NAME_SETTINGS, MODE_PRIVATE).edit()
         ed.putBoolean("Toast", switchToast.isChecked())
         ed.putBoolean("Exit", switchExit.isChecked())
         ed.commit()

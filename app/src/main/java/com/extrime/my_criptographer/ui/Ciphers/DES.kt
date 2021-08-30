@@ -6,8 +6,11 @@ import android.util.Base64
 import android.util.Log
 import android.view.View
 import android.widget.*
+import com.extrime.my_criptographer.AdsClass
 import com.extrime.my_criptographer.R
 import com.extrime.my_criptographer.StartActivity
+import com.google.android.gms.ads.AdView
+import com.google.android.gms.ads.MobileAds
 import java.io.ByteArrayInputStream
 import java.io.ByteArrayOutputStream
 import java.io.IOException
@@ -34,6 +37,7 @@ open class DES : StartActivity() {
         setContentView(R.layout.blowfish_and_des_activity)
         SetOnClick(desListener)
         create_cipher()
+        initAds() // todo: Init Ads
     }
 
     private fun create_cipher() {

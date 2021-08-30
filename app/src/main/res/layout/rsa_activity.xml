@@ -133,4 +133,5 @@
                 android:id="@+id/BtnPrivateKey"
                 android:layout_column="2"/>
     </GridLayout>
+    <include layout="@layout/ads_layout"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

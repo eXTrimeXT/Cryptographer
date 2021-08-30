@@ -700,19 +700,10 @@ library_dependencies {
   library_dep_index: 3
 }
 library_dependencies {
-  library_index: 2
-}
-library_dependencies {
-  library_index: 3
-}
-library_dependencies {
   library_index: 4
   library_dep_index: 1
   library_dep_index: 5
   library_dep_index: 6
-}
-library_dependencies {
-  library_index: 5
 }
 library_dependencies {
   library_index: 6
@@ -867,9 +858,6 @@ library_dependencies {
   library_dep_index: 12
   library_dep_index: 6
   library_dep_index: 31
-}
-library_dependencies {
-  library_index: 31
 }
 library_dependencies {
   library_index: 32
@@ -1032,9 +1020,6 @@ library_dependencies {
 library_dependencies {
   library_index: 59
   library_dep_index: 5
-}
-library_dependencies {
-  library_index: 53
 }
 library_dependencies {
   library_index: 54

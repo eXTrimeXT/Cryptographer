@@ -109,4 +109,5 @@
                 android:layout_column="1"
         />
     </GridLayout>
+    <include layout="@layout/ads_layout"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

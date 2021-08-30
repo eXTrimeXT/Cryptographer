@@ -7,6 +7,7 @@ import android.util.Log
 import android.view.View
 import android.widget.TextView
 import android.widget.Toast
+import com.extrime.my_criptographer.StartActivity.Companion.mAdView
 import com.extrime.my_criptographer.ui.Algorithms.Caesar
 import com.extrime.my_criptographer.ui.Algorithms.SwitchChar
 import com.extrime.my_criptographer.ui.Algorithms.eXT
@@ -15,6 +16,8 @@ import com.extrime.my_criptographer.ui.Ciphers.BlowFish
 import com.extrime.my_criptographer.ui.Ciphers.DES
 import com.extrime.my_criptographer.ui.Ciphers.RSA
 import com.extrime.my_criptographer.ui.Settings.ThemeColors
+import com.google.android.gms.ads.AdView
+import com.google.android.gms.ads.MobileAds
 import java.lang.Exception
 
 class Information : AppCompatActivity() {
@@ -25,10 +28,18 @@ class Information : AppCompatActivity() {
         ThemeColors(this)
         setContentView(R.layout.information_activity)
         about_algorithm = getIntent().getStringExtra("about")
-        (findViewById<View>(R.id.about) as TextView).text =
-            """$about_algorithm""".trimIndent()
+        (findViewById<View>(R.id.about) as TextView).text = """$about_algorithm""".trimIndent()
         algorithm = getIntent().getStringExtra("Algorithm")
         Log.e(StartActivity.TAG, algorithm!!)
+
+        // TODO: Start ADS
+        val adView = AdView(this)
+        MobileAds.initialize(this)
+        mAdView = findViewById(R.id.adView)
+        val adsClass = AdsClass()
+        adsClass.initAds(adView, mAdView)
+        // TODO: End ADS
+
     }
 
     override fun onBackPressed() {

@@ -44,6 +44,7 @@ class eXT : StartActivity() {
         rb_nechetnyu = findViewById(R.id.radio_4)
         count = 0
         SetOnClick(eXT_Listener)
+        initAds() // todo: Init Ads
     }
 
     override fun SetOnClick(onClickListener: View.OnClickListener?) {

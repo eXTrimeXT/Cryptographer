@@ -26,6 +26,8 @@ import com.extrime.my_criptographer.ui.Ciphers.AES
 import com.extrime.my_criptographer.ui.Ciphers.BlowFish
 import com.extrime.my_criptographer.ui.Ciphers.DES
 import com.extrime.my_criptographer.ui.Settings.ThemeColors
+import com.google.android.gms.ads.*
+import kotlinx.android.synthetic.main.ads_layout.*
 import java.lang.Exception
 import java.util.*
 
@@ -37,6 +39,8 @@ open class MainActivity : StartActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.start_activity)
         onToolBar()
+
+        initAds() // todo: Init Ads
     }
 
     fun onToolBar() {

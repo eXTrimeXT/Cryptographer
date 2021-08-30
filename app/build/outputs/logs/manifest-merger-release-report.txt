@@ -1,101 +1,163 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:2:1-57:12
-INJECTED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:2:1-57:12
-INJECTED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:2:1-57:12
-INJECTED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:2:1-57:12
-MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/15e1868fde17d48f9197694bbb1d69a6/navigation-fragment-ktx-2.3.4/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.fragment:fragment-ktx:1.2.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/e9eaada4575a841fd5e694a407098a51/jetified-fragment-ktx-1.2.4/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-ui-ktx:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/61532b754109c5fcf4331b42de4847f2/navigation-ui-ktx-2.3.4/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/bae42ea6741f600bbcd6f393c25ccc1d/navigation-runtime-ktx-2.3.4/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-common-ktx:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/8b137f1be2eb49df47cbbf3cba2c19a8/navigation-common-ktx-2.3.4/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity-ktx:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/4942f52977804b2f27e41b1732925d2e/jetified-activity-ktx-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core-ktx:1.3.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/07eef328030ed8b8e1d937a8c2b2de67/jetified-core-ktx-1.3.2/AndroidManifest.xml:2:1-9:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/a86e28682923d07ebdd42f5e68c66718/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/c1bc2ec97d2c089bc0ea97186d637662/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/4b21825e6a663d4102ab6e239b36a83c/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-ui:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/bda44b97180c6a9073fb314e78a435e5/navigation-ui-2.3.4/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.material:material:1.3.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/da02d2b34c0555955efdee69a6dfe2dc/material-1.3.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/ae13ab8b71ef166a3071a73845a65ff3/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.appcompat:appcompat:1.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/fea493130a677b391490a4006e7dc24c/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.cardview:cardview:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/0b1c72e2737bbe0035aa88424aa476fc/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/352a416adec0305ac85ca8d27f102f36/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.navigation:navigation-fragment:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/f43c413c110ce193c9657700f622e157/navigation-fragment-2.3.4/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/cf9f6860b28782ecc05fe110562bbf8b/lifecycle-extensions-2.2.0/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/126f7f70a1d3776ad2a691dbfd3fd1f3/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.media:media:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/2593b8fa7da5cf30b33a7fe59154f03b/media-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/5e75d8dfa9a79065c6546b6f31e5cfba/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/17a7f9bfba449f68ec5b5e02e54a0218/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/d15e9efee630041647b68db1b0e536ee/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/e99af80b7e0cef9b7edc9612a056978a/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/28ae217f1c85f8082c418957e10a90c2/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/d379c576f82d13207da8e563b92e2167/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/b8356cef77ed52352ceddf3dc46e5751/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.fragment:fragment:1.2.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/8032882bc05dd7cad51071bd001fde8e/fragment-1.2.4/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/extrime/.gradle/caches/transforms-2/files-2.1/977b495bba42b20f9bfa1b5904610f11/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.transition:transition:1.3.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/da6a180dc13a059aaaa3ef2ad431b675/transition-1.3.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/e00620b515251841e26d66247012b002/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/f782b05704d2e9b66e73dc584c8e975d/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/ce8d02798f4935391166e3dc1594ff3d/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.customview:customview:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/fd45e804c7951bc66b6fe304f99fae7e/customview-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.loader:loader:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/bb10d4955c936efde89411ae4e412bf8/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/7a66b994261df87299abf1edaafc3cec/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/ac2c2fe881a1a7e14ec257aefec2b55d/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.navigation:navigation-runtime:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/6130c9b586b3f220eb4eecb83d7c2de7/navigation-runtime-2.3.4/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/853bea98545304bb525dab3a3e4830be/jetified-activity-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-common:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/b28eb0d6ee300dc8bf0c53e9b77c376f/navigation-common-2.3.4/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core:1.3.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/cf482542e751a71152d7f3206b48629a/core-1.3.2/AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/684c4c4e384add0ec8aadf4b10f6dbe3/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/9a43c30ab558a4c41e56ed595a8b627a/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:17:1-32:12
-MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/10134e8f36d0bccc3d28370f7e1c6bc3/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/f06c5ed3f8ac6762e89788892ddc0d05/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/d287fb0ca65618ae5cd8c1e69c7b6b71/lifecycle-livedata-2.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/e42d86f4019627383df52a4b80930a73/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/b5746266ab2f8436e42d564b1e47197c/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/1053446440c6f7f948aecb9598443e75/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/489414830981e70245d144d24d567d18/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/2c6a2bfab3fc0a25d6a51997791c7634/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/8a24d117fc62cea03517636e5eafb050/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/e2985f425a44554401b109884ca817b0/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/c8f0fd188c3a288c2401a16f6084d194/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/8c8095466793568297991035db1dba25/print-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/5cb4d62bc9d3209ed2bd39f0672eac2a/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/44ae7ca987758d76a436823f752abd56/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:2:1-57:12
-INJECTED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:2:1-57:12
-INJECTED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:2:1-57:12
+ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:2:1-65:12
+INJECTED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:2:1-65:12
+INJECTED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:2:1-65:12
+INJECTED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:2:1-65:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/1ecd7fbd9df8a515cd0eeb11c6b91724/navigation-fragment-ktx-2.3.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/176883d8c9b3d99b1d4bbdb4b7337139/jetified-fragment-ktx-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/2aaf4c8b51e55efcec5ee0df58c1eb7a/navigation-ui-ktx-2.3.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/2d7374c6815456fc8806675917843315/navigation-runtime-ktx-2.3.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/3ec6e1c31450642030ca4c51ccb781d4/navigation-common-ktx-2.3.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/1194b94d5d1c297f13ee8380cc95c82a/jetified-activity-ktx-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.3.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/3e20e152efce26131b3d8c58d268fe93/jetified-core-ktx-1.3.2/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/36496002a64bfca9db06a1358d619b14/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/e34aadd784594334aa3cb828e8c12418/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/d1a0ae8b9e19d82978e71ff2d053177d/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/d39c0bea78e2ad83034bd86efaa0d236/navigation-ui-2.3.4/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.3.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/47ca3846b3e76666dc7f64d1b2c4e098/material-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/b0c9a1d824853f7a20175d8e7086bcfc/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/a9adaf465237f67f3d1c574b90d65efb/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/882c4b0b4e575b160173db4ebb0fb643/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/1ae8e3b5e2e3be917a52fa97ae547d9a/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/c9e72c7c2a11ec75678e21b8d0efe165/navigation-fragment-2.3.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/3d8f412eb7770182079852088a718a2d/lifecycle-extensions-2.2.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.firebase:firebase-ads:19.4.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/3f91b1b55ea9637899bc93b3ca6b3775/jetified-firebase-ads-19.4.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.multidex:multidex:2.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/1e1dc8f540b3bfa5a789c2c479485bf1/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/58f19b950c4aa6187353fb6e8313f979/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/f68a9be1f3e65da3ae0b973f5ac321da/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-ads:19.4.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/b0db70f24541bb0d16bb0fc94d73378d/jetified-play-services-ads-19.4.0/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.browser:browser:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/c8a60f64999e0504a968f5a13bdb8e98/browser-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/1d1a58e3373f8b36b88509f0bb43b932/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/456f93bac056846e7191950b7d4e9223/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-analytics:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/377a6636303188037235e085ff6de132/jetified-firebase-analytics-17.2.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/6c153eb1c4aa73adb1155bffa673bff3/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/50538a1cf0480d9aa0d55eacb7ee1b3e/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/b12331f7b00b3cc5124ee82e73a62087/jetified-play-services-measurement-sdk-17.2.2/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/e34f0a07e267d0fa0267dc7cde52a902/jetified-play-services-measurement-impl-17.2.2/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/ab3508a2d665f904be333d0a71c52221/jetified-firebase-iid-20.0.2/AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/6e445212032abe388c8dd5b9ffd2846b/jetified-play-services-stats-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/b5a8f0181099d4b7fe6ebd64b963f325/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/50b357e7da89396a9672a302858ac985/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/62f55a40f1a30b0e1ea2098a7c6eabd6/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/4c993d3ebd9ad0fc244c591538c22957/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/76b982faafd9cd368de0bf1450ec97f8/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-gass:19.4.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/bdc9372cb51b6ceb2dcf20e7a62893f0/jetified-play-services-gass-19.4.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/bfc0ea5624cb6846b2a376f0fda045f7/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-ads-lite:19.4.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/ea0e34c48c54fa786377c46f3f542dff/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.firebase:firebase-common:19.3.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/2a10526a0230a60aeb8a53de4b849677/jetified-firebase-common-19.3.0/AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/96b31de29df948c2265d4a0af49a90b2/jetified-firebase-iid-interop-17.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/bd54f8162d4f78eddca69540c2dadf39/jetified-play-services-base-17.0.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:17.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/f51d1270bf7b1857aa121b654e0f2477/jetified-play-services-tasks-17.1.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/59125830ab58a0d3bf6387ba97a4374e/jetified-play-services-measurement-sdk-api-17.2.2/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/643d06173216e63597426754672a1b1d/jetified-play-services-measurement-base-17.2.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/a03449510d80164852807f8b0dd2a52a/jetified-firebase-measurement-connector-18.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:17.3.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/7b6d73e412271a85d16a48533db5f404/jetified-play-services-basement-17.3.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.2.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/819a08a72c53b2be1ded7127d4b85a02/fragment-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/extrime/.gradle/caches/transforms-2/files-2.1/25ebc3ff9e1da83156f0792628eff465/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.3.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/a8796242cbc68fa52c4cd4339cc0e6d1/transition-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/0c7b277aad1b9c14b28de67884ef3e21/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/7f0d7ed99927aa0c60357dd401efdf8f/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/7c594e1b95b7dc32e54e37cce1f10aff/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/223bba7d2b8f7cef3f4cfbbe6138f57b/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/512888efa39742f9ec3fe96d6f839f57/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/7de932f7339f8ecb861e5dd2a053c25a/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/520a69aa210efe4d343ab693c0940903/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/e645ac5f8dd66fd625a644a2fcfddd49/navigation-runtime-2.3.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/ec1d0c52802bc91fe9e99f0ab66e9bf2/jetified-activity-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/1ee75194a80a37e540721c5d8370f366/navigation-common-2.3.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.3.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/2e2c0495545f48d151d365192cbedd41/core-1.3.2/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/01769b8d734a3d882f130c94aac89c77/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/b1804068107938d05de235fb09ba38d2/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/9c354698cee76b7f8bfb5e5bfde82c8e/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/e17bb71c196a0d3f5377f7013da609a0/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/81f5c2936fb10b844236828fb0d45c22/lifecycle-livedata-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/90c5eac2666b087248474cbad27bf603/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/233d023e9b45e083e3957686c72625aa/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/d28f7f60f2c569b35d8ec58fb0c655c9/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/333ac53288a5b09c38408226b352cb01/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/2360797120f1b65d2f61c07735949d31/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/a1ec0c3ad359f84ec7a801be409efef2/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/4dbdf5a6ef5cc71941eb3d0e8f568975/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/62245969992d8785def57b29598b3dbd/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/80765f8e011915220bf2a5b882534229/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/d570472d5a82035662d2ef206f5387d7/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:16.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/b20f3983cc5eabe17dab1d74b870171b/jetified-firebase-components-16.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/66605e651eabc2305db0a93aa361a16b/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-ads-base:19.4.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/8e28ec7551c41506a24f50769114eea0/jetified-play-services-ads-base-19.4.0/AndroidManifest.xml:2:1-9:12
+INJECTED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:2:1-65:12
+INJECTED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:2:1-65:12
+INJECTED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:2:1-65:12
 	package
 		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:3:11-49
 		INJECTED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml
 		INJECTED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml
-		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:2:1-57:12
+		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:2:1-65:12
 		INJECTED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml
-		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:2:1-57:12
+		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:2:1-65:12
 		INJECTED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:5:5-56:19
-MERGED from [com.google.android.material:material:1.3.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/da02d2b34c0555955efdee69a6dfe2dc/material-1.3.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.3.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/da02d2b34c0555955efdee69a6dfe2dc/material-1.3.0/AndroidManifest.xml:22:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/ae13ab8b71ef166a3071a73845a65ff3/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/ae13ab8b71ef166a3071a73845a65ff3/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/cf9f6860b28782ecc05fe110562bbf8b/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/cf9f6860b28782ecc05fe110562bbf8b/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.core:core:1.3.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/cf482542e751a71152d7f3206b48629a/core-1.3.2/AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.3.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/cf482542e751a71152d7f3206b48629a/core-1.3.2/AndroidManifest.xml:24:5-89
-MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/9a43c30ab558a4c41e56ed595a8b627a/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/9a43c30ab558a4c41e56ed595a8b627a/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/8a24d117fc62cea03517636e5eafb050/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/8a24d117fc62cea03517636e5eafb050/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:5:5-63:19
+MERGED from [com.google.android.material:material:1.3.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/47ca3846b3e76666dc7f64d1b2c4e098/material-1.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.3.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/47ca3846b3e76666dc7f64d1b2c4e098/material-1.3.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/b0c9a1d824853f7a20175d8e7086bcfc/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/b0c9a1d824853f7a20175d8e7086bcfc/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/3d8f412eb7770182079852088a718a2d/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/3d8f412eb7770182079852088a718a2d/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.firebase:firebase-ads:19.4.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/3f91b1b55ea9637899bc93b3ca6b3775/jetified-firebase-ads-19.4.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-ads:19.4.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/3f91b1b55ea9637899bc93b3ca6b3775/jetified-firebase-ads-19.4.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/377a6636303188037235e085ff6de132/jetified-firebase-analytics-17.2.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/377a6636303188037235e085ff6de132/jetified-firebase-analytics-17.2.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/6c153eb1c4aa73adb1155bffa673bff3/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/6c153eb1c4aa73adb1155bffa673bff3/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/50538a1cf0480d9aa0d55eacb7ee1b3e/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/50538a1cf0480d9aa0d55eacb7ee1b3e/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/b12331f7b00b3cc5124ee82e73a62087/jetified-play-services-measurement-sdk-17.2.2/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/b12331f7b00b3cc5124ee82e73a62087/jetified-play-services-measurement-sdk-17.2.2/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/e34f0a07e267d0fa0267dc7cde52a902/jetified-play-services-measurement-impl-17.2.2/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/e34f0a07e267d0fa0267dc7cde52a902/jetified-play-services-measurement-impl-17.2.2/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/ab3508a2d665f904be333d0a71c52221/jetified-firebase-iid-20.0.2/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/ab3508a2d665f904be333d0a71c52221/jetified-firebase-iid-20.0.2/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/6e445212032abe388c8dd5b9ffd2846b/jetified-play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/6e445212032abe388c8dd5b9ffd2846b/jetified-play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-gass:19.4.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/bdc9372cb51b6ceb2dcf20e7a62893f0/jetified-play-services-gass-19.4.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-gass:19.4.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/bdc9372cb51b6ceb2dcf20e7a62893f0/jetified-play-services-gass-19.4.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/bfc0ea5624cb6846b2a376f0fda045f7/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/bfc0ea5624cb6846b2a376f0fda045f7/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:19.4.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/ea0e34c48c54fa786377c46f3f542dff/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:26:5-45:19
+MERGED from [com.google.android.gms:play-services-ads-lite:19.4.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/ea0e34c48c54fa786377c46f3f542dff/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:26:5-45:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/2a10526a0230a60aeb8a53de4b849677/jetified-firebase-common-19.3.0/AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/2a10526a0230a60aeb8a53de4b849677/jetified-firebase-common-19.3.0/AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/96b31de29df948c2265d4a0af49a90b2/jetified-firebase-iid-interop-17.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/96b31de29df948c2265d4a0af49a90b2/jetified-firebase-iid-interop-17.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/bd54f8162d4f78eddca69540c2dadf39/jetified-play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/bd54f8162d4f78eddca69540c2dadf39/jetified-play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/f51d1270bf7b1857aa121b654e0f2477/jetified-play-services-tasks-17.1.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/f51d1270bf7b1857aa121b654e0f2477/jetified-play-services-tasks-17.1.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/643d06173216e63597426754672a1b1d/jetified-play-services-measurement-base-17.2.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/643d06173216e63597426754672a1b1d/jetified-play-services-measurement-base-17.2.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/a03449510d80164852807f8b0dd2a52a/jetified-firebase-measurement-connector-18.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/a03449510d80164852807f8b0dd2a52a/jetified-firebase-measurement-connector-18.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:17.3.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/7b6d73e412271a85d16a48533db5f404/jetified-play-services-basement-17.3.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.3.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/7b6d73e412271a85d16a48533db5f404/jetified-play-services-basement-17.3.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.3.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/2e2c0495545f48d151d365192cbedd41/core-1.3.2/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/2e2c0495545f48d151d365192cbedd41/core-1.3.2/AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/b1804068107938d05de235fb09ba38d2/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/b1804068107938d05de235fb09ba38d2/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/a1ec0c3ad359f84ec7a801be409efef2/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/a1ec0c3ad359f84ec7a801be409efef2/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.android.gms:play-services-ads-base:19.4.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/8e28ec7551c41506a24f50769114eea0/jetified-play-services-ads-base-19.4.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-base:19.4.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/8e28ec7551c41506a24f50769114eea0/jetified-play-services-ads-base-19.4.0/AndroidManifest.xml:7:5-20
 	android:screenOrientation
 		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:11:13-49
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.3.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/cf482542e751a71152d7f3206b48629a/core-1.3.2/AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.3.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/2e2c0495545f48d151d365192cbedd41/core-1.3.2/AndroidManifest.xml:24:18-86
 	android:supportsRtl
 		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:12:13-39
 	android:label
@@ -110,210 +172,270 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/extri
 		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:6:13-39
 	android:theme
 		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:13:13-44
+activity#com.extrime.my_criptographer.AdsActivity
+ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:14:9-15:20
+	android:name
+		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:14:19-46
 activity#com.extrime.my_criptographer.MainActivity
-ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:14:9-23:20
+ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:16:9-26:20
 	android:screenOrientation
-		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:16:17-53
+		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:19:17-53
 	android:label
-		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:17:17-49
+		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:18:17-49
 	android:theme
-		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:18:17-60
+		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:20:17-60
 	android:name
-		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:15:17-45
+		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:17:17-45
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:19:13-22:29
+ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:21:13-25:29
 action#android.intent.action.MAIN
-ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:20:17-68
+ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:22:17-68
 	android:name
-		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:20:25-66
+		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:22:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:21:17-76
+ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:24:17-76
 	android:name
-		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:21:27-74
+		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:24:27-74
 activity#com.extrime.my_criptographer.ui.Ciphers.AES
-ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:24:9-27:38
-	android:screenOrientation
-		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:26:17-53
-	android:label
-		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:27:17-36
-	android:name
-		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:25:17-47
-activity#com.extrime.my_criptographer.ui.Ciphers.BlowFish
-ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:28:9-31:43
+ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:27:9-30:55
 	android:screenOrientation
 		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:30:17-53
 	android:label
-		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:31:17-41
+		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:29:17-36
 	android:name
-		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:29:17-52
-activity#com.extrime.my_criptographer.ui.Algorithms.Caesar
-ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:32:9-35:41
+		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:28:17-47
+activity#com.extrime.my_criptographer.ui.Ciphers.BlowFish
+ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:31:9-34:55
 	android:screenOrientation
 		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:34:17-53
 	android:label
-		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:35:17-39
+		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:33:17-41
 	android:name
-		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:33:17-53
-activity#com.extrime.my_criptographer.ui.Ciphers.DES
-ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:36:9-39:38
+		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:32:17-52
+activity#com.extrime.my_criptographer.ui.Algorithms.Caesar
+ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:35:9-38:55
 	android:screenOrientation
 		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:38:17-53
 	android:label
-		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:39:17-36
+		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:37:17-39
 	android:name
-		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:37:17-47
-activity#com.extrime.my_criptographer.ui.Ciphers.RSA
-ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:40:9-43:38
+		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:36:17-53
+activity#com.extrime.my_criptographer.ui.Ciphers.DES
+ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:39:9-42:55
 	android:screenOrientation
 		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:42:17-53
 	android:label
-		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:43:17-36
+		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:41:17-36
 	android:name
-		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:41:17-47
-activity#com.extrime.my_criptographer.ui.Algorithms.eXT
-ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:44:9-47:38
+		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:40:17-47
+activity#com.extrime.my_criptographer.ui.Ciphers.RSA
+ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:43:9-46:55
 	android:screenOrientation
 		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:46:17-53
 	android:label
-		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:47:17-36
+		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:45:17-36
 	android:name
-		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:45:17-50
-activity#com.extrime.my_criptographer.Information
-ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:48:9-51:46
+		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:44:17-47
+activity#com.extrime.my_criptographer.ui.Algorithms.eXT
+ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:47:9-50:55
 	android:screenOrientation
 		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:50:17-53
 	android:label
-		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:51:17-44
+		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:49:17-36
 	android:name
-		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:49:17-44
-activity#com.extrime.my_criptographer.ui.Algorithms.SwitchChar
-ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:52:9-55:45
+		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:48:17-50
+activity#com.extrime.my_criptographer.Information
+ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:51:9-54:55
 	android:screenOrientation
 		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:54:17-53
 	android:label
-		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:55:17-43
+		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:53:17-44
 	android:name
-		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:53:17-57
+		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:52:17-44
+activity#com.extrime.my_criptographer.ui.Algorithms.SwitchChar
+ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:55:9-58:55
+	android:screenOrientation
+		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:58:17-53
+	android:label
+		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:57:17-43
+	android:name
+		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:56:17-57
+meta-data#com.google.android.gms.ads.APPLICATION_ID
+ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:60:9-62:73
+	android:value
+		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:62:17-71
+	android:name
+		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml:61:17-73
 uses-sdk
 INJECTED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml
 INJECTED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml
-MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/15e1868fde17d48f9197694bbb1d69a6/navigation-fragment-ktx-2.3.4/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/15e1868fde17d48f9197694bbb1d69a6/navigation-fragment-ktx-2.3.4/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment-ktx:1.2.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/e9eaada4575a841fd5e694a407098a51/jetified-fragment-ktx-1.2.4/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment-ktx:1.2.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/e9eaada4575a841fd5e694a407098a51/jetified-fragment-ktx-1.2.4/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-ui-ktx:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/61532b754109c5fcf4331b42de4847f2/navigation-ui-ktx-2.3.4/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-ui-ktx:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/61532b754109c5fcf4331b42de4847f2/navigation-ui-ktx-2.3.4/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/bae42ea6741f600bbcd6f393c25ccc1d/navigation-runtime-ktx-2.3.4/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/bae42ea6741f600bbcd6f393c25ccc1d/navigation-runtime-ktx-2.3.4/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-common-ktx:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/8b137f1be2eb49df47cbbf3cba2c19a8/navigation-common-ktx-2.3.4/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-common-ktx:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/8b137f1be2eb49df47cbbf3cba2c19a8/navigation-common-ktx-2.3.4/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity-ktx:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/4942f52977804b2f27e41b1732925d2e/jetified-activity-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity-ktx:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/4942f52977804b2f27e41b1732925d2e/jetified-activity-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core-ktx:1.3.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/07eef328030ed8b8e1d937a8c2b2de67/jetified-core-ktx-1.3.2/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.core:core-ktx:1.3.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/07eef328030ed8b8e1d937a8c2b2de67/jetified-core-ktx-1.3.2/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/a86e28682923d07ebdd42f5e68c66718/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/a86e28682923d07ebdd42f5e68c66718/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/c1bc2ec97d2c089bc0ea97186d637662/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/c1bc2ec97d2c089bc0ea97186d637662/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/4b21825e6a663d4102ab6e239b36a83c/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/4b21825e6a663d4102ab6e239b36a83c/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-ui:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/bda44b97180c6a9073fb314e78a435e5/navigation-ui-2.3.4/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-ui:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/bda44b97180c6a9073fb314e78a435e5/navigation-ui-2.3.4/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.material:material:1.3.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/da02d2b34c0555955efdee69a6dfe2dc/material-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.3.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/da02d2b34c0555955efdee69a6dfe2dc/material-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/ae13ab8b71ef166a3071a73845a65ff3/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/ae13ab8b71ef166a3071a73845a65ff3/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.appcompat:appcompat:1.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/fea493130a677b391490a4006e7dc24c/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/fea493130a677b391490a4006e7dc24c/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cardview:cardview:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/0b1c72e2737bbe0035aa88424aa476fc/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/0b1c72e2737bbe0035aa88424aa476fc/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/352a416adec0305ac85ca8d27f102f36/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/352a416adec0305ac85ca8d27f102f36/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-fragment:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/f43c413c110ce193c9657700f622e157/navigation-fragment-2.3.4/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-fragment:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/f43c413c110ce193c9657700f622e157/navigation-fragment-2.3.4/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/cf9f6860b28782ecc05fe110562bbf8b/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/cf9f6860b28782ecc05fe110562bbf8b/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/126f7f70a1d3776ad2a691dbfd3fd1f3/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/126f7f70a1d3776ad2a691dbfd3fd1f3/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.media:media:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/2593b8fa7da5cf30b33a7fe59154f03b/media-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.media:media:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/2593b8fa7da5cf30b33a7fe59154f03b/media-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/5e75d8dfa9a79065c6546b6f31e5cfba/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/5e75d8dfa9a79065c6546b6f31e5cfba/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/17a7f9bfba449f68ec5b5e02e54a0218/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/17a7f9bfba449f68ec5b5e02e54a0218/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/d15e9efee630041647b68db1b0e536ee/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/d15e9efee630041647b68db1b0e536ee/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/e99af80b7e0cef9b7edc9612a056978a/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/e99af80b7e0cef9b7edc9612a056978a/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/28ae217f1c85f8082c418957e10a90c2/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/28ae217f1c85f8082c418957e10a90c2/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/d379c576f82d13207da8e563b92e2167/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/d379c576f82d13207da8e563b92e2167/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/b8356cef77ed52352ceddf3dc46e5751/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/b8356cef77ed52352ceddf3dc46e5751/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.2.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/8032882bc05dd7cad51071bd001fde8e/fragment-1.2.4/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.2.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/8032882bc05dd7cad51071bd001fde8e/fragment-1.2.4/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/extrime/.gradle/caches/transforms-2/files-2.1/977b495bba42b20f9bfa1b5904610f11/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/extrime/.gradle/caches/transforms-2/files-2.1/977b495bba42b20f9bfa1b5904610f11/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.3.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/da6a180dc13a059aaaa3ef2ad431b675/transition-1.3.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.3.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/da6a180dc13a059aaaa3ef2ad431b675/transition-1.3.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager:viewpager:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/e00620b515251841e26d66247012b002/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/e00620b515251841e26d66247012b002/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/f782b05704d2e9b66e73dc584c8e975d/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/f782b05704d2e9b66e73dc584c8e975d/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/ce8d02798f4935391166e3dc1594ff3d/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/ce8d02798f4935391166e3dc1594ff3d/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/fd45e804c7951bc66b6fe304f99fae7e/customview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/fd45e804c7951bc66b6fe304f99fae7e/customview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.loader:loader:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/bb10d4955c936efde89411ae4e412bf8/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/bb10d4955c936efde89411ae4e412bf8/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/7a66b994261df87299abf1edaafc3cec/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/7a66b994261df87299abf1edaafc3cec/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/ac2c2fe881a1a7e14ec257aefec2b55d/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/ac2c2fe881a1a7e14ec257aefec2b55d/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-runtime:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/6130c9b586b3f220eb4eecb83d7c2de7/navigation-runtime-2.3.4/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-runtime:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/6130c9b586b3f220eb4eecb83d7c2de7/navigation-runtime-2.3.4/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/853bea98545304bb525dab3a3e4830be/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/853bea98545304bb525dab3a3e4830be/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-common:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/b28eb0d6ee300dc8bf0c53e9b77c376f/navigation-common-2.3.4/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-common:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/b28eb0d6ee300dc8bf0c53e9b77c376f/navigation-common-2.3.4/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.3.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/cf482542e751a71152d7f3206b48629a/core-1.3.2/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.3.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/cf482542e751a71152d7f3206b48629a/core-1.3.2/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/684c4c4e384add0ec8aadf4b10f6dbe3/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/684c4c4e384add0ec8aadf4b10f6dbe3/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/9a43c30ab558a4c41e56ed595a8b627a/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/9a43c30ab558a4c41e56ed595a8b627a/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/10134e8f36d0bccc3d28370f7e1c6bc3/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/10134e8f36d0bccc3d28370f7e1c6bc3/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/f06c5ed3f8ac6762e89788892ddc0d05/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/f06c5ed3f8ac6762e89788892ddc0d05/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/d287fb0ca65618ae5cd8c1e69c7b6b71/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/d287fb0ca65618ae5cd8c1e69c7b6b71/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/e42d86f4019627383df52a4b80930a73/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/e42d86f4019627383df52a4b80930a73/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/b5746266ab2f8436e42d564b1e47197c/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/b5746266ab2f8436e42d564b1e47197c/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/1053446440c6f7f948aecb9598443e75/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/1053446440c6f7f948aecb9598443e75/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/489414830981e70245d144d24d567d18/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/489414830981e70245d144d24d567d18/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/2c6a2bfab3fc0a25d6a51997791c7634/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/2c6a2bfab3fc0a25d6a51997791c7634/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/8a24d117fc62cea03517636e5eafb050/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/8a24d117fc62cea03517636e5eafb050/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.documentfile:documentfile:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/e2985f425a44554401b109884ca817b0/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/e2985f425a44554401b109884ca817b0/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/c8f0fd188c3a288c2401a16f6084d194/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/c8f0fd188c3a288c2401a16f6084d194/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/8c8095466793568297991035db1dba25/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/8c8095466793568297991035db1dba25/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/5cb4d62bc9d3209ed2bd39f0672eac2a/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/5cb4d62bc9d3209ed2bd39f0672eac2a/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/44ae7ca987758d76a436823f752abd56/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/44ae7ca987758d76a436823f752abd56/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/1ecd7fbd9df8a515cd0eeb11c6b91724/navigation-fragment-ktx-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/1ecd7fbd9df8a515cd0eeb11c6b91724/navigation-fragment-ktx-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/176883d8c9b3d99b1d4bbdb4b7337139/jetified-fragment-ktx-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/176883d8c9b3d99b1d4bbdb4b7337139/jetified-fragment-ktx-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/2aaf4c8b51e55efcec5ee0df58c1eb7a/navigation-ui-ktx-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/2aaf4c8b51e55efcec5ee0df58c1eb7a/navigation-ui-ktx-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/2d7374c6815456fc8806675917843315/navigation-runtime-ktx-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/2d7374c6815456fc8806675917843315/navigation-runtime-ktx-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/3ec6e1c31450642030ca4c51ccb781d4/navigation-common-ktx-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/3ec6e1c31450642030ca4c51ccb781d4/navigation-common-ktx-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/1194b94d5d1c297f13ee8380cc95c82a/jetified-activity-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/1194b94d5d1c297f13ee8380cc95c82a/jetified-activity-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.3.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/3e20e152efce26131b3d8c58d268fe93/jetified-core-ktx-1.3.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.3.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/3e20e152efce26131b3d8c58d268fe93/jetified-core-ktx-1.3.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/36496002a64bfca9db06a1358d619b14/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/36496002a64bfca9db06a1358d619b14/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/e34aadd784594334aa3cb828e8c12418/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/e34aadd784594334aa3cb828e8c12418/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/d1a0ae8b9e19d82978e71ff2d053177d/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/d1a0ae8b9e19d82978e71ff2d053177d/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/d39c0bea78e2ad83034bd86efaa0d236/navigation-ui-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/d39c0bea78e2ad83034bd86efaa0d236/navigation-ui-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.3.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/47ca3846b3e76666dc7f64d1b2c4e098/material-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.3.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/47ca3846b3e76666dc7f64d1b2c4e098/material-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/b0c9a1d824853f7a20175d8e7086bcfc/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/b0c9a1d824853f7a20175d8e7086bcfc/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/a9adaf465237f67f3d1c574b90d65efb/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/a9adaf465237f67f3d1c574b90d65efb/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/882c4b0b4e575b160173db4ebb0fb643/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/882c4b0b4e575b160173db4ebb0fb643/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/1ae8e3b5e2e3be917a52fa97ae547d9a/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/1ae8e3b5e2e3be917a52fa97ae547d9a/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/c9e72c7c2a11ec75678e21b8d0efe165/navigation-fragment-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/c9e72c7c2a11ec75678e21b8d0efe165/navigation-fragment-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/3d8f412eb7770182079852088a718a2d/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/3d8f412eb7770182079852088a718a2d/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-ads:19.4.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/3f91b1b55ea9637899bc93b3ca6b3775/jetified-firebase-ads-19.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-ads:19.4.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/3f91b1b55ea9637899bc93b3ca6b3775/jetified-firebase-ads-19.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.multidex:multidex:2.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/1e1dc8f540b3bfa5a789c2c479485bf1/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/1e1dc8f540b3bfa5a789c2c479485bf1/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/58f19b950c4aa6187353fb6e8313f979/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/58f19b950c4aa6187353fb6e8313f979/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/f68a9be1f3e65da3ae0b973f5ac321da/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/f68a9be1f3e65da3ae0b973f5ac321da/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads:19.4.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/b0db70f24541bb0d16bb0fc94d73378d/jetified-play-services-ads-19.4.0/AndroidManifest.xml:21:5-23:52
+MERGED from [com.google.android.gms:play-services-ads:19.4.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/b0db70f24541bb0d16bb0fc94d73378d/jetified-play-services-ads-19.4.0/AndroidManifest.xml:21:5-23:52
+MERGED from [androidx.browser:browser:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/c8a60f64999e0504a968f5a13bdb8e98/browser-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/c8a60f64999e0504a968f5a13bdb8e98/browser-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/1d1a58e3373f8b36b88509f0bb43b932/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/1d1a58e3373f8b36b88509f0bb43b932/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/456f93bac056846e7191950b7d4e9223/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/456f93bac056846e7191950b7d4e9223/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/377a6636303188037235e085ff6de132/jetified-firebase-analytics-17.2.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/377a6636303188037235e085ff6de132/jetified-firebase-analytics-17.2.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/6c153eb1c4aa73adb1155bffa673bff3/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/6c153eb1c4aa73adb1155bffa673bff3/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/50538a1cf0480d9aa0d55eacb7ee1b3e/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/50538a1cf0480d9aa0d55eacb7ee1b3e/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/b12331f7b00b3cc5124ee82e73a62087/jetified-play-services-measurement-sdk-17.2.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/b12331f7b00b3cc5124ee82e73a62087/jetified-play-services-measurement-sdk-17.2.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/e34f0a07e267d0fa0267dc7cde52a902/jetified-play-services-measurement-impl-17.2.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/e34f0a07e267d0fa0267dc7cde52a902/jetified-play-services-measurement-impl-17.2.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/ab3508a2d665f904be333d0a71c52221/jetified-firebase-iid-20.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/ab3508a2d665f904be333d0a71c52221/jetified-firebase-iid-20.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/6e445212032abe388c8dd5b9ffd2846b/jetified-play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/6e445212032abe388c8dd5b9ffd2846b/jetified-play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/b5a8f0181099d4b7fe6ebd64b963f325/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/b5a8f0181099d4b7fe6ebd64b963f325/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/50b357e7da89396a9672a302858ac985/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/50b357e7da89396a9672a302858ac985/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/62f55a40f1a30b0e1ea2098a7c6eabd6/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/62f55a40f1a30b0e1ea2098a7c6eabd6/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/4c993d3ebd9ad0fc244c591538c22957/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/4c993d3ebd9ad0fc244c591538c22957/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/76b982faafd9cd368de0bf1450ec97f8/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/76b982faafd9cd368de0bf1450ec97f8/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-gass:19.4.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/bdc9372cb51b6ceb2dcf20e7a62893f0/jetified-play-services-gass-19.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-gass:19.4.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/bdc9372cb51b6ceb2dcf20e7a62893f0/jetified-play-services-gass-19.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/bfc0ea5624cb6846b2a376f0fda045f7/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/bfc0ea5624cb6846b2a376f0fda045f7/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:19.4.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/ea0e34c48c54fa786377c46f3f542dff/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:19.4.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/ea0e34c48c54fa786377c46f3f542dff/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:19.3.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/2a10526a0230a60aeb8a53de4b849677/jetified-firebase-common-19.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:19.3.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/2a10526a0230a60aeb8a53de4b849677/jetified-firebase-common-19.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/96b31de29df948c2265d4a0af49a90b2/jetified-firebase-iid-interop-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/96b31de29df948c2265d4a0af49a90b2/jetified-firebase-iid-interop-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/bd54f8162d4f78eddca69540c2dadf39/jetified-play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/bd54f8162d4f78eddca69540c2dadf39/jetified-play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/f51d1270bf7b1857aa121b654e0f2477/jetified-play-services-tasks-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/f51d1270bf7b1857aa121b654e0f2477/jetified-play-services-tasks-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/59125830ab58a0d3bf6387ba97a4374e/jetified-play-services-measurement-sdk-api-17.2.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/59125830ab58a0d3bf6387ba97a4374e/jetified-play-services-measurement-sdk-api-17.2.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/643d06173216e63597426754672a1b1d/jetified-play-services-measurement-base-17.2.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/643d06173216e63597426754672a1b1d/jetified-play-services-measurement-base-17.2.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/a03449510d80164852807f8b0dd2a52a/jetified-firebase-measurement-connector-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/a03449510d80164852807f8b0dd2a52a/jetified-firebase-measurement-connector-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.3.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/7b6d73e412271a85d16a48533db5f404/jetified-play-services-basement-17.3.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.3.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/7b6d73e412271a85d16a48533db5f404/jetified-play-services-basement-17.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.2.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/819a08a72c53b2be1ded7127d4b85a02/fragment-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/819a08a72c53b2be1ded7127d4b85a02/fragment-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/extrime/.gradle/caches/transforms-2/files-2.1/25ebc3ff9e1da83156f0792628eff465/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/extrime/.gradle/caches/transforms-2/files-2.1/25ebc3ff9e1da83156f0792628eff465/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/a8796242cbc68fa52c4cd4339cc0e6d1/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/a8796242cbc68fa52c4cd4339cc0e6d1/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/0c7b277aad1b9c14b28de67884ef3e21/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/0c7b277aad1b9c14b28de67884ef3e21/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/7f0d7ed99927aa0c60357dd401efdf8f/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/7f0d7ed99927aa0c60357dd401efdf8f/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/7c594e1b95b7dc32e54e37cce1f10aff/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/7c594e1b95b7dc32e54e37cce1f10aff/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/223bba7d2b8f7cef3f4cfbbe6138f57b/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/223bba7d2b8f7cef3f4cfbbe6138f57b/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/512888efa39742f9ec3fe96d6f839f57/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/512888efa39742f9ec3fe96d6f839f57/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/7de932f7339f8ecb861e5dd2a053c25a/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/7de932f7339f8ecb861e5dd2a053c25a/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/520a69aa210efe4d343ab693c0940903/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/520a69aa210efe4d343ab693c0940903/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/e645ac5f8dd66fd625a644a2fcfddd49/navigation-runtime-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/e645ac5f8dd66fd625a644a2fcfddd49/navigation-runtime-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/ec1d0c52802bc91fe9e99f0ab66e9bf2/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/ec1d0c52802bc91fe9e99f0ab66e9bf2/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/1ee75194a80a37e540721c5d8370f366/navigation-common-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.4] /home/extrime/.gradle/caches/transforms-2/files-2.1/1ee75194a80a37e540721c5d8370f366/navigation-common-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/2e2c0495545f48d151d365192cbedd41/core-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/2e2c0495545f48d151d365192cbedd41/core-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/01769b8d734a3d882f130c94aac89c77/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/01769b8d734a3d882f130c94aac89c77/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/b1804068107938d05de235fb09ba38d2/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/b1804068107938d05de235fb09ba38d2/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/9c354698cee76b7f8bfb5e5bfde82c8e/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/9c354698cee76b7f8bfb5e5bfde82c8e/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/e17bb71c196a0d3f5377f7013da609a0/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/e17bb71c196a0d3f5377f7013da609a0/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/81f5c2936fb10b844236828fb0d45c22/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/81f5c2936fb10b844236828fb0d45c22/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/90c5eac2666b087248474cbad27bf603/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/90c5eac2666b087248474cbad27bf603/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/233d023e9b45e083e3957686c72625aa/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/233d023e9b45e083e3957686c72625aa/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/d28f7f60f2c569b35d8ec58fb0c655c9/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/d28f7f60f2c569b35d8ec58fb0c655c9/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/333ac53288a5b09c38408226b352cb01/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/333ac53288a5b09c38408226b352cb01/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/2360797120f1b65d2f61c07735949d31/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/2360797120f1b65d2f61c07735949d31/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/a1ec0c3ad359f84ec7a801be409efef2/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/a1ec0c3ad359f84ec7a801be409efef2/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/4dbdf5a6ef5cc71941eb3d0e8f568975/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/4dbdf5a6ef5cc71941eb3d0e8f568975/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/62245969992d8785def57b29598b3dbd/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/62245969992d8785def57b29598b3dbd/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/80765f8e011915220bf2a5b882534229/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/80765f8e011915220bf2a5b882534229/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/d570472d5a82035662d2ef206f5387d7/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/d570472d5a82035662d2ef206f5387d7/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:16.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/b20f3983cc5eabe17dab1d74b870171b/jetified-firebase-components-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/b20f3983cc5eabe17dab1d74b870171b/jetified-firebase-components-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/66605e651eabc2305db0a93aa361a16b/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/66605e651eabc2305db0a93aa361a16b/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-ads-base:19.4.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/8e28ec7551c41506a24f50769114eea0/jetified-play-services-ads-base-19.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:19.4.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/8e28ec7551c41506a24f50769114eea0/jetified-play-services-ads-base-19.4.0/AndroidManifest.xml:5:5-44
 INJECTED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml
 INJECTED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.google.android.gms:play-services-ads:19.4.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/b0db70f24541bb0d16bb0fc94d73378d/jetified-play-services-ads-19.4.0/AndroidManifest.xml:23:9-49
 	android:targetSdkVersion
 		INJECTED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml
 		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml
@@ -322,13 +444,199 @@ INJECTED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml
 		INJECTED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml
 		ADDED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml
 		INJECTED from /home/extrime/Cryptographer/app/src/main/AndroidManifest.xml
-provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
-ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/9a43c30ab558a4c41e56ed595a8b627a/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
-	android:authorities
-		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/9a43c30ab558a4c41e56ed595a8b627a/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
-	android:multiprocess
-		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/9a43c30ab558a4c41e56ed595a8b627a/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
-	android:exported
-		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/9a43c30ab558a4c41e56ed595a8b627a/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/6c153eb1c4aa73adb1155bffa673bff3/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/50538a1cf0480d9aa0d55eacb7ee1b3e/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/50538a1cf0480d9aa0d55eacb7ee1b3e/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/e34f0a07e267d0fa0267dc7cde52a902/jetified-play-services-measurement-impl-17.2.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/e34f0a07e267d0fa0267dc7cde52a902/jetified-play-services-measurement-impl-17.2.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/ab3508a2d665f904be333d0a71c52221/jetified-firebase-iid-20.0.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/ab3508a2d665f904be333d0a71c52221/jetified-firebase-iid-20.0.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:19.4.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/ea0e34c48c54fa786377c46f3f542dff/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:19.4.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/ea0e34c48c54fa786377c46f3f542dff/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/59125830ab58a0d3bf6387ba97a4374e/jetified-play-services-measurement-sdk-api-17.2.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/59125830ab58a0d3bf6387ba97a4374e/jetified-play-services-measurement-sdk-api-17.2.2/AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/9a43c30ab558a4c41e56ed595a8b627a/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/6c153eb1c4aa73adb1155bffa673bff3/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:23:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/6c153eb1c4aa73adb1155bffa673bff3/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/50538a1cf0480d9aa0d55eacb7ee1b3e/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/50538a1cf0480d9aa0d55eacb7ee1b3e/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/e34f0a07e267d0fa0267dc7cde52a902/jetified-play-services-measurement-impl-17.2.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/e34f0a07e267d0fa0267dc7cde52a902/jetified-play-services-measurement-impl-17.2.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/ab3508a2d665f904be333d0a71c52221/jetified-firebase-iid-20.0.2/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/ab3508a2d665f904be333d0a71c52221/jetified-firebase-iid-20.0.2/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:19.4.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/ea0e34c48c54fa786377c46f3f542dff/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:19.4.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/ea0e34c48c54fa786377c46f3f542dff/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/59125830ab58a0d3bf6387ba97a4374e/jetified-play-services-measurement-sdk-api-17.2.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/59125830ab58a0d3bf6387ba97a4374e/jetified-play-services-measurement-sdk-api-17.2.2/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/6c153eb1c4aa73adb1155bffa673bff3/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:24:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/6c153eb1c4aa73adb1155bffa673bff3/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/50538a1cf0480d9aa0d55eacb7ee1b3e/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/50538a1cf0480d9aa0d55eacb7ee1b3e/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/e34f0a07e267d0fa0267dc7cde52a902/jetified-play-services-measurement-impl-17.2.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/e34f0a07e267d0fa0267dc7cde52a902/jetified-play-services-measurement-impl-17.2.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/ab3508a2d665f904be333d0a71c52221/jetified-firebase-iid-20.0.2/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/ab3508a2d665f904be333d0a71c52221/jetified-firebase-iid-20.0.2/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/59125830ab58a0d3bf6387ba97a4374e/jetified-play-services-measurement-sdk-api-17.2.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/59125830ab58a0d3bf6387ba97a4374e/jetified-play-services-measurement-sdk-api-17.2.2/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/6c153eb1c4aa73adb1155bffa673bff3/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:25:22-65
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/6c153eb1c4aa73adb1155bffa673bff3/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/e34f0a07e267d0fa0267dc7cde52a902/jetified-play-services-measurement-impl-17.2.2/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/e34f0a07e267d0fa0267dc7cde52a902/jetified-play-services-measurement-impl-17.2.2/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/6c153eb1c4aa73adb1155bffa673bff3/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/6c153eb1c4aa73adb1155bffa673bff3/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/6c153eb1c4aa73adb1155bffa673bff3/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/6c153eb1c4aa73adb1155bffa673bff3/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/6c153eb1c4aa73adb1155bffa673bff3/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/6c153eb1c4aa73adb1155bffa673bff3/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/e34f0a07e267d0fa0267dc7cde52a902/jetified-play-services-measurement-impl-17.2.2/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/e34f0a07e267d0fa0267dc7cde52a902/jetified-play-services-measurement-impl-17.2.2/AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/6c153eb1c4aa73adb1155bffa673bff3/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/6c153eb1c4aa73adb1155bffa673bff3/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/6c153eb1c4aa73adb1155bffa673bff3/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/6c153eb1c4aa73adb1155bffa673bff3/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/6c153eb1c4aa73adb1155bffa673bff3/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/6c153eb1c4aa73adb1155bffa673bff3/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/6c153eb1c4aa73adb1155bffa673bff3/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/6c153eb1c4aa73adb1155bffa673bff3/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/6c153eb1c4aa73adb1155bffa673bff3/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/6c153eb1c4aa73adb1155bffa673bff3/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/6c153eb1c4aa73adb1155bffa673bff3/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/6c153eb1c4aa73adb1155bffa673bff3/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/6c153eb1c4aa73adb1155bffa673bff3/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/6c153eb1c4aa73adb1155bffa673bff3/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/6c153eb1c4aa73adb1155bffa673bff3/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/6c153eb1c4aa73adb1155bffa673bff3/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:49:13-87
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.android.gms:play-services-measurement-api:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/50538a1cf0480d9aa0d55eacb7ee1b3e/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/ab3508a2d665f904be333d0a71c52221/jetified-firebase-iid-20.0.2/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/ab3508a2d665f904be333d0a71c52221/jetified-firebase-iid-20.0.2/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/2a10526a0230a60aeb8a53de4b849677/jetified-firebase-common-19.3.0/AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:19.3.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/2a10526a0230a60aeb8a53de4b849677/jetified-firebase-common-19.3.0/AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/50538a1cf0480d9aa0d55eacb7ee1b3e/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:29:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/2a10526a0230a60aeb8a53de4b849677/jetified-firebase-common-19.3.0/AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/2a10526a0230a60aeb8a53de4b849677/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/50538a1cf0480d9aa0d55eacb7ee1b3e/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:28:13-84
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/50538a1cf0480d9aa0d55eacb7ee1b3e/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/50538a1cf0480d9aa0d55eacb7ee1b3e/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/50538a1cf0480d9aa0d55eacb7ee1b3e/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:31:17-139
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:20.0.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/ab3508a2d665f904be333d0a71c52221/jetified-firebase-iid-20.0.2/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.0.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/ab3508a2d665f904be333d0a71c52221/jetified-firebase-iid-20.0.2/AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:20.0.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/ab3508a2d665f904be333d0a71c52221/jetified-firebase-iid-20.0.2/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:20.0.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/ab3508a2d665f904be333d0a71c52221/jetified-firebase-iid-20.0.2/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.0.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/ab3508a2d665f904be333d0a71c52221/jetified-firebase-iid-20.0.2/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:20.0.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/ab3508a2d665f904be333d0a71c52221/jetified-firebase-iid-20.0.2/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:20.0.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/ab3508a2d665f904be333d0a71c52221/jetified-firebase-iid-20.0.2/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:20.0.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/ab3508a2d665f904be333d0a71c52221/jetified-firebase-iid-20.0.2/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.0.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/ab3508a2d665f904be333d0a71c52221/jetified-firebase-iid-20.0.2/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:20.0.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/ab3508a2d665f904be333d0a71c52221/jetified-firebase-iid-20.0.2/AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:20.0.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/ab3508a2d665f904be333d0a71c52221/jetified-firebase-iid-20.0.2/AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.0.2] /home/extrime/.gradle/caches/transforms-2/files-2.1/ab3508a2d665f904be333d0a71c52221/jetified-firebase-iid-20.0.2/AndroidManifest.xml:42:25-78
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:19.4.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/ea0e34c48c54fa786377c46f3f542dff/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:29:9-33:64
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.4.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/ea0e34c48c54fa786377c46f3f542dff/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:32:13-37
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.4.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/ea0e34c48c54fa786377c46f3f542dff/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:31:13-122
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.4.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/ea0e34c48c54fa786377c46f3f542dff/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:33:13-61
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.4.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/ea0e34c48c54fa786377c46f3f542dff/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:30:13-65
+provider#com.google.android.gms.ads.MobileAdsInitProvider
+ADDED from [com.google.android.gms:play-services-ads-lite:19.4.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/ea0e34c48c54fa786377c46f3f542dff/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:35:9-39:39
+	android:authorities
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.4.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/ea0e34c48c54fa786377c46f3f542dff/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:37:13-73
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.4.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/ea0e34c48c54fa786377c46f3f542dff/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:38:13-37
+	android:initOrder
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.4.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/ea0e34c48c54fa786377c46f3f542dff/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:39:13-36
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.4.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/ea0e34c48c54fa786377c46f3f542dff/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:36:13-76
+service#com.google.android.gms.ads.AdService
+ADDED from [com.google.android.gms:play-services-ads-lite:19.4.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/ea0e34c48c54fa786377c46f3f542dff/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:41:9-44:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.4.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/ea0e34c48c54fa786377c46f3f542dff/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:43:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.4.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/ea0e34c48c54fa786377c46f3f542dff/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:44:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.4.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/ea0e34c48c54fa786377c46f3f542dff/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:42:13-64
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.3.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/2a10526a0230a60aeb8a53de4b849677/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/2a10526a0230a60aeb8a53de4b849677/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/2a10526a0230a60aeb8a53de4b849677/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/2a10526a0230a60aeb8a53de4b849677/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/2a10526a0230a60aeb8a53de4b849677/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/bd54f8162d4f78eddca69540c2dadf39/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/bd54f8162d4f78eddca69540c2dadf39/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/bd54f8162d4f78eddca69540c2dadf39/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/bd54f8162d4f78eddca69540c2dadf39/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.3.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/7b6d73e412271a85d16a48533db5f404/jetified-play-services-basement-17.3.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.3.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/7b6d73e412271a85d16a48533db5f404/jetified-play-services-basement-17.3.0/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.3.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/7b6d73e412271a85d16a48533db5f404/jetified-play-services-basement-17.3.0/AndroidManifest.xml:24:13-58
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/b1804068107938d05de235fb09ba38d2/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/b1804068107938d05de235fb09ba38d2/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/b1804068107938d05de235fb09ba38d2/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/b1804068107938d05de235fb09ba38d2/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/extrime/.gradle/caches/transforms-2/files-2.1/b1804068107938d05de235fb09ba38d2/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79

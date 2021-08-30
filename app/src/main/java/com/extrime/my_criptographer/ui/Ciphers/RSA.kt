@@ -26,6 +26,7 @@ class RSA : StartActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.rsa_activity)
+        initAds() // todo: Init Ads
     }
 
     fun getStringPublicKey() : String { return Base64.getEncoder().encodeToString(this.publicKey.encoded); }

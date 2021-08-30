@@ -6,9 +6,19 @@
         android:layout_height="match_parent"
         android:layout_width="match_parent"
         android:background="@drawable/background"
-        android:padding="20dp"
         tools:context=".ui.Settings.SettingsFragment">
 
+    <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:layout_gravity="center"
+            android:columnCount="1"
+            android:alignmentMode="alignMargins"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent" >
     <Switch
             android:id="@+id/setToast"
             android:layout_height="wrap_content"
@@ -50,6 +60,8 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/setExit"
-            app:layout_constraintVertical_bias="0" android:textColorLink="#D81B60"/>
-
+            app:layout_constraintVertical_bias="0"
+            android:textColorLink="#D81B60"/>
+    </GridLayout>
+    <include layout="@layout/ads_layout"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

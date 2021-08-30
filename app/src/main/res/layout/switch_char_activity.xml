@@ -106,4 +106,5 @@
             app:layout_constraintBottom_toTopOf="@+id/input_text"
             app:layout_constraintHorizontal_bias="0.932"
             app:layout_constraintVertical_bias="0.7"/>
+    <include layout="@layout/ads_layout"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
