@@ -17,4 +17,4 @@ You need to choose an encryption method and come up with a key.
 
 ## APK
 In order not to clog the github, I did not upload the "build" folder (since there were many files in it, * does not affect the work of the project in any way *), but decided to leave the apk file in the root folder of the project.
-[APK](https://github.com/eXTrimeXT/Cryptographer/blob/main/app/build/outputs/apk/debug/Cryptographer.apk)
+[APK](https://github.com/eXTrimeXT/Cryptographer/blob/main/app/build/outputs/app-release.apk)
